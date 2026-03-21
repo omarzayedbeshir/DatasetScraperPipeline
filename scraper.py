@@ -88,12 +88,12 @@ print("PROCESSING DATASETS...")
 
 datasets_url_file = "datasets_urls.txt"
 
-all_datasets = {}
-all_publishers = {}
-all_dataset_tags = {}
-all_files = {}
-all_maintainers = {}
-all_dataset_topics = {}
+all_datasets = []
+all_publishers = []
+all_dataset_tags = []
+all_files = []
+all_maintainers = []
+all_dataset_topics = []
 
 with open(datasets_url_file, "r") as f_in:
     for index, line in enumerate(f_in, start=1):
@@ -127,7 +127,7 @@ with open(datasets_url_file, "r") as f_in:
                         if mailto_tag:
                             td_text = mailto_tag["href"].replace("mailto:", "").strip()
                             current_dataset[key] = td_text
-                            all_maintainers.add({
+                            all_maintainers.append({
                                     "EmailAddress": td_text,
                                     "Name": mailto_tag.get_text(strip=True)
                                 })
@@ -157,7 +157,7 @@ with open(datasets_url_file, "r") as f_in:
             current_dataset["MetadataCreationDate"] = segments[2] + "-" + str(month_to_num[segments[0]]) + "-" + segments[1][:-1]
 
 
-        all_datasets.add(current_dataset)
+        all_datasets.append(current_dataset)
 
         # Filling in the fields of the publisher
         current_publisher = copy.deepcopy(publisher)
@@ -170,11 +170,11 @@ with open(datasets_url_file, "r") as f_in:
         else:
             if soup.find(id="organization-info").find("p", class_="description"):
                 current_publisher["Description"] = soup.find(id="organization-info").find('p', class_='description').get_text(strip=True)
-        all_publishers.add(current_publisher)
+        all_publishers.append(current_publisher)
 
         # Filling in Dataset Tags
         for a in soup.select("section.tags a.tag"):
-            all_dataset_tags.add({"DatasetIdentifier": current_dataset["Identifier"], "Tag": a["title"]})
+            all_dataset_tags.append({"DatasetIdentifier": current_dataset["Identifier"], "Tag": a["title"]})
 
         # Filling in the files
         for item in soup.select('li.resource-item'):
@@ -184,13 +184,13 @@ with open(datasets_url_file, "r") as f_in:
             link = download_btn["href"]
             
             if link and fmt_text:
-                all_files.add({'Link': link, 'Format': fmt_text, "DatasetIdentifier": current_dataset['Identifier']})
+                all_files.append({'Link': link, 'Format': fmt_text, "DatasetIdentifier": current_dataset['Identifier']})
         
         # Filling in the dataset topics
         topic_list = soup.find("ul", class_="topics")
         if topic_list:
             for item in topic_list.find_all("li", class_="nav-item"):
-                dataset_topics.add({
+                dataset_topics.append({
                         "DatasetIdentifier": current_dataset["DatasetIdentifier"],
                         "Topic": item.get_text(strip=True)
                     })

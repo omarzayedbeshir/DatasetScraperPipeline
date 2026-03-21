@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import copy
 import csv
+import time
 
 dataset = {
     "Identifier": "",
@@ -97,20 +98,20 @@ all_dataset_topics = []
 
 with open(datasets_url_file, "r") as f_in:
     for index, line in enumerate(f_in, start=1):
-        if (index)  % 10 == 0 and index != 0:
-            print("Processed", index, "Datasets...")
+        time.sleep(0.5)
         current_dataset = copy.deepcopy(dataset)
         line = line.strip()
-
+        print("Processing Dataset: #" + str(index) + " at:", line)
         response = requests.get(line)
         soup = BeautifulSoup(response.text, "html.parser")
 
         # Filling in the fields of the dataset
-        name_tag = soup.find("h1") or soup.find("h2")
+        name_tag = soup.find("h1", itemprop="name") 
         if name_tag:
             current_dataset["Name"] = name_tag.get_text(strip=True)
 
-        current_dataset["Description"] = soup.find("div", itemprop="description").get_text(strip=True)
+        if soup.find("div", itemprop="description"):
+            current_dataset["Description"] = soup.find("div", itemprop="description").get_text(strip=True)
         
         rows = soup.find_all("tr")
         for row in rows:
@@ -131,8 +132,7 @@ with open(datasets_url_file, "r") as f_in:
                                     "EmailAddress": td_text,
                                     "Name": mailto_tag.get_text(strip=True)
                                 })
-
-                    if key == "SourceDatajsonIdentifier":
+                    elif key == "SourceDatajsonIdentifier":
                         try:
                             current_dataset[key] = int(td_text)
                         except ValueError:
@@ -142,12 +142,31 @@ with open(datasets_url_file, "r") as f_in:
         
         mailto_tag = soup.find("a", title="contact")
         
-        current_dataset["PublisherEmailAddress"] = mailto_tag["href"].replace("mailto:", "").strip()
+        if mailto_tag:
+            current_dataset["PublisherEmailAddress"] = mailto_tag["href"].replace("mailto:", "").strip()
         
         section = soup.find("section", id="dataset-metadata-source")
-        current_dataset["MetadataSource"] = "https://catalog.data.gov" + section.find("p", class_="description").find("a")["href"]
-        current_dataset["HarvestSourceLink"] = "https://catalog.data.gov" + section.find("p", class_="text-muted").find("a")["href"]
         
+        if section:
+            if section.find("p", class_="description"):
+                MetadataSource = section.find("p", class_="description").find("a")
+        
+                if MetadataSource:
+                    MetadataSource = MetadataSource["href"]
+                    if MetadataSource.startswith("http://") or MetadataSource.startswith("https://"):
+                        current_dataset["MetadataSource"] = MetadataSource
+                    else:
+                        current_dataset["MetadataSource"] = "https://catalog.data.gov" + MetadataSource
+
+            HarvestSourceLink = section.find("p", class_="text-muted").find("a")
+            
+            if HarvestSourceLink:
+                HarvestSourceLink = HarvestSourceLink["href"]
+                if HarvestSourceLink.startswith("http://") or HarvestSourceLink.startswith("https://"):
+                    current_dataset["HarvestSourceLink"] = HarvestSourceLink
+                else:
+                    current_dataset["HarvestSourceLink"] = "https://catalog.data.gov" + HarvestSourceLink
+
         if current_dataset["MetadataUpdateDate"]:
             segments = current_dataset["MetadataUpdateDate"].split()
             current_dataset["MetadataUpdateDate"] = segments[2] + "-" + str(month_to_num[segments[0]]) + "-" + segments[1][:-1]
@@ -162,11 +181,14 @@ with open(datasets_url_file, "r") as f_in:
         # Filling in the fields of the publisher
         current_publisher = copy.deepcopy(publisher)
         current_publisher["EmailAddress"] = current_dataset["PublisherEmailAddress"]
-        current_publisher["Name"] = mailto_tag.get_text(strip=True)
+        if mailto_tag:
+            current_publisher["Name"] = mailto_tag.get_text(strip=True)
         current_publisher["Description"] = ""
-        current_publisher["OrganizationType"] = soup.find('span', class_='organization-type').get_text(strip=True)
+        if soup.find('span', class_='organzation-type'):
+            current_publisher["OrganizationType"] = soup.find('span', class_='organization-type').get_text(strip=True)
         if soup.find('p', class_='read-more'):
-            current_publisher["read-more"] = "https://catalog.data.gov" + soup.find('p', class_='read-more').find('a')['href']
+            if soup.find('p', class_='read-more').find('a')['href']:
+                current_publisher["read-more"] = "https://catalog.data.gov" + soup.find('p', class_='read-more').find('a')['href']
         else:
             if soup.find(id="organization-info").find("p", class_="description"):
                 current_publisher["Description"] = soup.find(id="organization-info").find('p', class_='description').get_text(strip=True)
@@ -181,7 +203,9 @@ with open(datasets_url_file, "r") as f_in:
             fmt_text = item.select_one('.format-label').text.strip()
             
             download_btn = item.select_one('a.btn[data-format]')
-            link = download_btn["href"]
+            
+            if download_btn:
+                link = download_btn["href"]
             
             if link and fmt_text:
                 all_files.append({'Link': link, 'Format': fmt_text, "DatasetIdentifier": current_dataset['Identifier']})
@@ -190,19 +214,28 @@ with open(datasets_url_file, "r") as f_in:
         topic_list = soup.find("ul", class_="topics")
         if topic_list:
             for item in topic_list.find_all("li", class_="nav-item"):
-                dataset_topics.append({
-                        "DatasetIdentifier": current_dataset["DatasetIdentifier"],
+                all_dataset_topics.append({
+                        "DatasetIdentifier": current_dataset["Identifier"],
                         "Topic": item.get_text(strip=True)
                     })
 
+        with open("output/datasets.csv", "w", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=all_datasets[0].keys())
+            writer.writeheader()
+            writer.writerows(all_datasets)
+
+
+with open("output/datasets.csv", "w", newline="") as f:
+    writer = csv.DictWriter(f, fieldnames=all_datasets[0].keys())
+    writer.writeheader()
+    writer.writerows(all_datasets)
 
 print("PROCESSING DATASETS COMPLETED")
 print("PROCESSING USERS")
 
-INPUT_FILE = "users.csv"
-OUTPUT_FILE = "users_processed.csv"
+OUTPUT_FILE = "output/users_processed.csv"
 
-with open(INPUT_FILE, newline="", encoding="utf-8") as infile:
+with open("users.csv", newline="", encoding="utf-8") as infile:
     reader = csv.DictReader(infile)
     rows = list(reader)
 
@@ -213,8 +246,7 @@ with open(OUTPUT_FILE, "w", newline="", encoding="utf-8") as outfile:
     writer.writeheader()
 
     for index, row in enumerate(rows, start=1):
-        if index % 10 == 0 and index:
-            print("Processed", index, "Users...")
+        print("Processing User: #" + str(index))
         writer.writerow({
             "EmailAddress": row["email"],
             "Username":     row["username"],
@@ -229,12 +261,51 @@ print("PROCESSING USERS COMPLETED")
 print("PROCESSING PUBLISHERS")
 
 for index, publisher in enumerate(all_publishers, start=1):
-    if index % 10 == 0 and index:
-        print("Processed", index, "Publishers...")
-    if publisher["read-more"]:
-        response = request.get(publisher["read-more"])
+    print("Processing Publisher: #" + str(index) + " at", publisher.get("read-more"))
+    if publisher.get("read-more"):
+        time.wait(0.5) 
+        response = requests.get(publisher["read-more"])
         soup = BeautifulSoup(response.text, "html.parser")
-        publisher["Description"] = soup.find("div", class_="primary").find("p").get_text(strip=True)
+        if soup.find("div", class_="primary").find("p"):
+            publisher["Description"] = soup.find("div", class_="primary").find("p").get_text(strip=True)
         del publisher["read-more"]
 
-print("PROCESSING COMPLETED")
+print("PROCESSING HTML COMPLETED")
+
+print("CREATING CSV FILES")
+
+with open("output/publishers.csv", "w", newline="") as f:
+    writer = csv.DictWriter(f, fieldnames=all_publishers[0].keys())
+    writer.writeheader()
+    writer.writerows(all_publishers)
+
+with open("output/dataset_tags.csv", "w", newline="") as f:
+    writer = csv.DictWriter(f, fieldnames=all_dataset_tags[0].keys())
+    writer.writeheader()
+    writer.writerows(all_dataset_tags)
+
+with open("output/projects.csv", "w", newline="") as f:
+    writer = csv.DictWriter(f, fieldnames=["UserEmailAddress", "Name", "Category"])
+    writer.writeheader()
+
+with open("output/project_datasets.csv", "w", newline="") as f:
+    writer = csv.DictWriter(f, fieldnames=["UserEmailAddress", "Name", "DatasetIdentifier"])
+    writer.writeheader()
+    
+with open("output/files.csv", "w", newline="") as f:
+    writer = csv.DictWriter(f, fieldnames=all_files[0].keys())
+    writer.writeheader()
+    writer.writerows(all_files)
+
+with open("output/maintainer.csv", "w", newline="") as f:
+    writer = csv.DictWriter(f, fieldnames=all_maintainers[0].keys())
+    writer.writeheader()
+    writer.writerows(all_maintainers)
+
+with open("output/dataset_topics.csv", "w", newline="") as f:
+    writer = csv.DictWriter(f, fieldnames=all_dataset_topics[0].keys())
+    writer.writeheader()
+    writer.writerows(all_dataset_topics)
+
+print("PROCESSING CSV FILES COMPLETED")
+print("PROCESS COMPLETED")

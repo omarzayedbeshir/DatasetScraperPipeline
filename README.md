@@ -29,11 +29,18 @@ dataset-scraper/
 ├── scraper.py
 ├── run_pipeline.py
 ├── urls.txt
+├── users.csv
 ├── dataset_urls.txt
 ├── output/
-│   ├── publisher.csv
-│   ├── dataset.csv
-│   └── files.csv
+│   ├── users_processed.csv
+│   ├── publishers.csv
+│   └── datasets.csv
+│   ├── dataset_tags.csv
+│   ├── projects.csv
+│   ├── project_datasets.csv
+│   ├── files.csv
+│   ├── maintainers.csv
+│   └── dataset_topics.csv
 │
 └── README.md
 ```

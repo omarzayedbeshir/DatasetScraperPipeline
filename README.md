@@ -62,7 +62,6 @@ Generates listing page URLs from page 1 to page 100:
 * Generate all listing page URLs
 * Store them in `urls.txt`
 * One URL per line
-* Overwrite the file if it already exists
 
 ---
 
@@ -74,13 +73,11 @@ This script collects dataset detail page URLs.
 
 ### Responsibilities
 
-1. Read listing URLs from `urls.txt`
-2. Visit each listing page
+1. Read page URLs from `urls.txt`
+2. Visit each page
 3. Extract dataset detail page links
-4. Collect **2000 unique dataset URLs**
+4. Collect dataset URLs
 5. Store them in `dataset_urls.txt`
-6. Ensure no duplicates
-7. Stop immediately after reaching 2000 unique URLs
 
 Each line in `dataset_urls.txt` represents one dataset detail page.
 
@@ -98,9 +95,8 @@ This is the main data extraction script.
 2. Visit each dataset page
 3. Extract dataset data according to the ERD
 4. Extract associated downloadable files/resources
-5. Deduplicate publishers
-6. Write structured CSV files
-7. Stop after processing 2000 datasets
+5. Scrape and extract publishers' descriptions
+6. Write and create CSV files for extracted data
 
 ---
 
@@ -108,16 +104,13 @@ This is the main data extraction script.
 
 ## run_pipeline.py
 
-This script serves as the **single entry point** for the entire project.
+This script serves as the single entry point for the entire project.
 
 ### Responsibilities
 
 1. Execute `generate_urls.py`
 2. Execute `dataset_url_scraper.py`
 3. Execute `scraper.py`
-4. Ensure the steps run in the correct order
-5. Stop execution if any stage fails
-6. Provide clear console output indicating progress
 
 This allows the entire scraping process to be executed with a single command.
 
@@ -129,31 +122,74 @@ All output is written to the `output/` directory.
 
 Only the following files must be generated:
 
-## 1. publisher.csv
+## 1. publishers.csv
 
-* Contains unique publishing organizations
+* Contains publishing organizations
 * One row per publisher
-* No duplicate entries
+* Duplicate entries may exist, but this will be handled as we load the CSV into the database
+* Structure of the file is like that of the prospective table in the database
 
 ---
 
-## 2. dataset.csv
+## 2. datasets.csv
 
-* Contains up to 2000 datasets
+* Contains the scraped information about 2000 datasets
 * One row per dataset
 * Each dataset references its corresponding publisher
+* Structure of the file is like that of the prospective table in the database
 
 ---
 
 ## 3. files.csv
 
-* Contains downloadable resources associated with datasets
+* Contains links to the resources associated with datasets
 * One row per file/resource
-* Supports many-to-one relationship with datasets
+* Structure of the file is like that of the prospective table in the database
 
 ---
 
-# Full Execution Flow
+## 4. users_processed.csv
+
+* A reorganized version of the `users.csv` file to match table order
+* Created a standard password for all users `admin123` (This is for testing purposes. In production, I know that I need to encrypt passwords)
+* Structure of the file is like that of the prospective table in the database
+
+---
+
+## 5. dataset_tags.csv
+
+* Stores the tag associated with each dataset, using the dataset identifier as a foreign key
+* Structure of the file is like that of the prospective table in the database
+
+---
+
+## 6. projects.csv
+
+* An empty file for the projects of each user. I created this file (even though it is empty) for my own reference.
+* Structure of the file is like that of the prospective table in the database
+
+---
+
+## 7. project_datasets.csv
+
+* An empty file linking the projects of each user with datasets they use. I created this file (even though it is empty) for my own reference.
+* Structure of the file is like that of the prospective table in the database
+
+---
+
+## 8. maintainers.csv
+
+* Stores the maintainers for the available datasets
+* Structure of the file is like that of the prospective table in the database
+
+---
+
+## 9. dataset_topics.csv
+
+* Stores the topics of the datasets
+* Structure of the file is like that of the prospective table in the database
+
+
 
 Run the pipeline using:
 
@@ -164,11 +200,6 @@ This will automatically:
 * Generate listing page URLs
 * Collect 2000 dataset detail URLs
 * Scrape dataset data
-* Produce:
-
-  * `publisher.csv`
-  * `dataset.csv`
-  * `files.csv`
+* Produce necessary CSV files
 
 The process completes once 2000 datasets and their associated files have been successfully stored in the `output/` directory.
-

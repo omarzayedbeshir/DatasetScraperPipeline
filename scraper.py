@@ -104,7 +104,8 @@ with open(datasets_url_file, "r") as f_in:
         print("Processing Dataset: #" + str(index) + " at:", line)
         response = requests.get(line)
         soup = BeautifulSoup(response.text, "html.parser")
-
+        if not soup:
+            continue
         # Filling in the fields of the dataset
         name_tag = soup.find("h1", itemprop="name") 
         if name_tag:
@@ -219,7 +220,7 @@ with open(datasets_url_file, "r") as f_in:
                         "Topic": item.get_text(strip=True)
                     })
 
-        with open("output/datasets.csv", "w", newline="") as f:
+        with open("output/datasets.csv", "a", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=all_datasets[0].keys())
             writer.writeheader()
             writer.writerows(all_datasets)
@@ -263,7 +264,7 @@ print("PROCESSING PUBLISHERS")
 for index, publisher in enumerate(all_publishers, start=1):
     print("Processing Publisher: #" + str(index) + " at", publisher.get("read-more"))
     if publisher.get("read-more"):
-        time.wait(0.5) 
+        time.sleep(0.5) 
         response = requests.get(publisher["read-more"])
         soup = BeautifulSoup(response.text, "html.parser")
         if soup.find("div", class_="primary").find("p"):

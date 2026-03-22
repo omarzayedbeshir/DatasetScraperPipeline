@@ -9,8 +9,10 @@ dataset_num = 0
 
 page_num = 0
 
+print('Starting dataset_url_scraper.py...')
+
 with open(pages_url_file, "r") as f_in, open(datasets_url_file, "w") as f_out:
-    for line in f_in:
+    for index, line in enumerate(f_in, start=1):
         page_num += 1
         line = line.strip()
         
@@ -23,5 +25,8 @@ with open(pages_url_file, "r") as f_in, open(datasets_url_file, "w") as f_out:
             dataset_num += 1
             url = link.get('href')
             f_out.write("https://catalog.data.gov" + url + "\n")
+        
+        if index % 10:
+            print("Scraped", index, "pages for dataset URLs")
 
 print("Gathered", dataset_num, "dataset URLs from", page_num, "pages")

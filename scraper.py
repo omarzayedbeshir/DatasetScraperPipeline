@@ -85,6 +85,7 @@ FIELD_MAP = {
     "Publisher Email Address": "PublisherEmailAddress",
 }
 
+print("Starting scraper.py...")
 print("PROCESSING DATASETS...")
 
 datasets_url_file = "datasets_urls.txt"

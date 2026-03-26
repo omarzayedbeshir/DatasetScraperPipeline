@@ -189,7 +189,7 @@ with open(datasets_url_file, "r") as f_in:
         if mailto_tag:
             current_publisher["Name"] = mailto_tag.get_text(strip=True)
         current_publisher["Description"] = ""
-        if soup.find('span', class_='organzation-type'):
+        if soup.find('span', class_='organization-type'):
             current_publisher["OrganizationType"] = soup.find('span', class_='organization-type').get_text(strip=True)
         if soup.find('p', class_='read-more'):
             if soup.find('p', class_='read-more').find('a')['href']:

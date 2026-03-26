@@ -3,8 +3,10 @@ from bs4 import BeautifulSoup
 import copy
 import csv
 import time
+import uuid
 
 dataset = {
+    "UUID": "",
     "Identifier": "",
     "Name": "",
     "Description": "",
@@ -103,6 +105,7 @@ with open(datasets_url_file, "r") as f_in:
         current_dataset = copy.deepcopy(dataset)
         line = line.strip()
         print("Processing Dataset: #" + str(index) + " at:", line)
+        current_dataset["UUID"] = str(uuid.uuid4())
         response = requests.get(line)
         soup = BeautifulSoup(response.text, "html.parser")
         if not soup:
@@ -132,7 +135,8 @@ with open(datasets_url_file, "r") as f_in:
                             current_dataset[key] = td_text
                             all_maintainers.append({
                                     "EmailAddress": td_text,
-                                    "Name": mailto_tag.get_text(strip=True)
+                                    "Name": mailto_tag.get_text(strip=True),
+                                    "DatasetUUID": current_dataset["UUID"]
                                 })
                     elif key == "SourceDatajsonIdentifier":
                         try:
@@ -198,7 +202,7 @@ with open(datasets_url_file, "r") as f_in:
 
         # Filling in Dataset Tags
         for a in soup.select("section.tags a.tag"):
-            all_dataset_tags.append({"DatasetIdentifier": current_dataset["Identifier"], "Tag": a["title"]})
+            all_dataset_tags.append({"DatasetUUID": current_dataset["UUID"], "Tag": a["title"]})
 
         # Filling in the files
         for item in soup.select('li.resource-item'):
@@ -210,14 +214,14 @@ with open(datasets_url_file, "r") as f_in:
                 link = download_btn["href"]
             
             if link and fmt_text:
-                all_files.append({'Link': link, 'Format': fmt_text, "DatasetIdentifier": current_dataset['Identifier']})
+                all_files.append({'Link': link, 'Format': fmt_text, "DatasetUUID": current_dataset["UUID"]})
         
         # Filling in the dataset topics
         topic_list = soup.find("ul", class_="topics")
         if topic_list:
             for item in topic_list.find_all("li", class_="nav-item"):
                 all_dataset_topics.append({
-                        "DatasetIdentifier": current_dataset["Identifier"],
+                        "DatasetUUID": current_dataset["UUID"],
                         "Topic": item.get_text(strip=True)
                     })
 
@@ -291,7 +295,7 @@ with open("output/projects.csv", "w", newline="") as f:
     writer.writeheader()
 
 with open("output/project_datasets.csv", "w", newline="") as f:
-    writer = csv.DictWriter(f, fieldnames=["UserEmailAddress", "Name", "DatasetIdentifier"])
+    writer = csv.DictWriter(f, fieldnames=["UserEmailAddress", "Name", "DatasetUUID"])
     writer.writeheader()
     
 with open("output/files.csv", "w", newline="") as f:

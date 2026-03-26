@@ -195,7 +195,7 @@ with open(datasets_url_file, "r") as f_in:
         if soup.find('p', class_='read-more'):
             if soup.find('p', class_='read-more').find('a')['href']:
                 current_publisher["read-more"] = "https://catalog.data.gov" + soup.find('p', class_='read-more').find('a')['href']
-        else:
+        elif soup.find(id="organization-info"):
             if soup.find(id="organization-info").find("p", class_="description"):
                 current_publisher["Description"] = soup.find(id="organization-info").find('p', class_='description').get_text(strip=True)
         all_publishers.append(current_publisher)

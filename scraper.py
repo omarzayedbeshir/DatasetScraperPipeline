@@ -135,8 +135,7 @@ with open(datasets_url_file, "r") as f_in:
                             current_dataset[key] = td_text
                             all_maintainers.append({
                                     "EmailAddress": td_text,
-                                    "Name": mailto_tag.get_text(strip=True),
-                                    "DatasetUUID": current_dataset["UUID"]
+                                    "Name": mailto_tag.get_text(strip=True)
                                 })
                     elif key == "SourceDatajsonIdentifier":
                         try:

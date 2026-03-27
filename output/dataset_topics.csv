@@ -1,818 +1,519 @@
 DatasetUUID,Topic
-7d9ac4c6-23a2-46ef-85ff-c52b56e73afe,Local Government
-cfe64f3a-0d3a-479a-9af2-b8adab37605b,Local Government
-5840de55-74b3-4bbf-94ff-1be956f2af9e,Local Government
-d63204ab-d837-4a09-b45d-423d234be7f2,Local Government
-ecac4812-4227-471d-8c8f-005bfbdf6856,Local Government
-2a384d82-4bd8-4132-8216-08bb238943d5,Local Government
-9bb44187-2f7d-479f-ad3e-7e910a73e6b2,ClimateFood Resilience
-9bb44187-2f7d-479f-ad3e-7e910a73e6b2,Food Resilience
-6a57bf7b-8585-447f-9ed6-a929c555c639,Local Government
-94fbed53-9549-4d01-89fe-58f81a970ea3,Local Government
-ff8ae99f-8aae-4879-bcb4-a73216296ffd,Local Government
-abe99315-7c80-4d92-92fc-55a78ae56d59,ClimateTransportationTransportation Nodes
-abe99315-7c80-4d92-92fc-55a78ae56d59,Transportation
-abe99315-7c80-4d92-92fc-55a78ae56d59,Transportation Nodes
-53db0514-d282-4eeb-8ffc-17320c47381b,Climate
-86a694a0-22d7-4f65-a575-f50dd8fbaace,Local Government
-738173a7-573a-419e-b4eb-bfec1f564dc5,Local Government
-08fad2fe-fb18-49cb-bf55-d996c005cf98,Climate
-d32fe23c-b7f4-47aa-a1b2-5b8d67975757,Local Government
-7aa7814a-aa43-4611-b2eb-f90809d4b674,Local Government
-00f8702a-ab1d-41c6-ad16-4c18e6d65f30,Local Government
-87580820-a6c1-4626-afc7-cd0f24a86ef6,Local Government
-38239784-4301-44f1-a997-e8c380163296,Local Government
-49df3a5f-516e-4f23-8d60-9ad85e0301cf,Local Government
-e22b8833-c065-4d38-a993-87d639fd1316,ClimateFood ResilienceFood Safety and NutritionHuman Health
-e22b8833-c065-4d38-a993-87d639fd1316,Food Resilience
-e22b8833-c065-4d38-a993-87d639fd1316,Food Safety and Nutrition
-e22b8833-c065-4d38-a993-87d639fd1316,Human Health
-d73192d0-beb7-458b-9b1c-81737a368ce3,Local Government
-c1ac94cd-6c31-464f-9b95-f63d1c38e86f,Local Government
-7b069c7e-093a-494e-9acb-a51908ab28e9,Older Adults Health Data Collection
-e9e9285a-07c0-4591-a76a-a916b7691e24,Local Government
-2aba1e81-3e26-4a24-92e0-87b886188582,Local Government
-c888d459-850a-4665-93da-3a93802b8393,Local Government
-9cb87779-7640-42b5-bc9e-93d7b0d3f1d6,Local Government
-cbc48283-0b5d-47db-b274-f4cb4f79ad39,Local Government
-a2a2cb92-ed52-4230-b3e4-31cf81a15b2d,Local Government
-d8aa6f70-6776-4f58-9114-e7a9089a7c7c,Local Government
-18b3c397-11ab-435a-94a2-c928548ebb7a,Local Government
-c9f66995-fdb5-4893-8289-c6be8a9e2f07,ClimateEcosystem VulnerabilityBiodiversity
-c9f66995-fdb5-4893-8289-c6be8a9e2f07,Ecosystem Vulnerability
-c9f66995-fdb5-4893-8289-c6be8a9e2f07,Biodiversity
-85c09ce0-96bc-4631-aec8-1bd9f35a708b,Local Government
-f33bcac6-5beb-435b-9e24-bb3ae10abbb7,Local Government
-03034ff9-12f6-4a0d-a4ce-6774508ddcd7,Local Government
-33c34a11-d5e5-4222-8add-961dd449ebcb,Climate
-3ddb88e8-b483-4bb2-b2eb-f36f044136aa,Climate
-ac67161f-02d8-432b-8b94-10343b23ab88,Climate
-ac67161f-02d8-432b-8b94-10343b23ab88,Older Adults Health Data Collection
-69769505-ecf3-4d8f-b8a4-0d03e2ef1fd6,Local Government
-3cb73d63-0852-44c5-af11-71cf6879165d,Local Government
-b9e4974b-95a9-45a7-83e5-0e61f0c29b67,Local Government
-90884e72-7473-4a60-a868-6eb4944b459c,Local Government
-6d07f0bf-28ae-48fe-ae60-0f6add40130b,ClimateEnergy Infrastructure
-6d07f0bf-28ae-48fe-ae60-0f6add40130b,Energy Infrastructure
-197e0b2c-3c62-4ce3-bf27-ab67e0d37dd8,Older Adults Health Data Collection
-5fa2a198-3bb5-470a-8476-21535263ed29,ClimateFood ResilienceFood SecurityHuman HealthTransportationTransportation Nodes
-5fa2a198-3bb5-470a-8476-21535263ed29,Food Resilience
-5fa2a198-3bb5-470a-8476-21535263ed29,Food Security
-5fa2a198-3bb5-470a-8476-21535263ed29,Human Health
-5fa2a198-3bb5-470a-8476-21535263ed29,Transportation
-5fa2a198-3bb5-470a-8476-21535263ed29,Transportation Nodes
-da091488-3c61-448a-ba3f-a03a28d36919,Local Government
-198a2379-2972-463e-a3d4-ece7a3aeeaf8,Local Government
-deda3aa7-83a0-4dc6-8b07-03f68d4d14d3,Local Government
-83878481-29f6-4c9b-8408-bf6e45d38d7c,ClimateWater
-83878481-29f6-4c9b-8408-bf6e45d38d7c,Water
-0086438e-c27f-4aca-9dfd-bba5aa188fa3,Local Government
-82b91d70-8c67-4d56-aa02-d79f1549a3eb,"ClimateCoastal FloodingEcosystem VulnerabilityAtmospheric, Earth and Ocean Sciences"
-82b91d70-8c67-4d56-aa02-d79f1549a3eb,Coastal Flooding
-82b91d70-8c67-4d56-aa02-d79f1549a3eb,Ecosystem Vulnerability
-82b91d70-8c67-4d56-aa02-d79f1549a3eb,"Atmospheric, Earth and Ocean Sciences"
-1905966e-9861-4aa2-8a45-ede474b1ac2d,Local Government
-90ee3b4c-17f9-473e-85bc-a8b22a0cffc0,Local Government
-5120ce1c-90d3-49d2-8913-417a187ee26c,Local Government
-2e1d25cc-b96d-4ac6-b02d-60c3a791fffb,ClimateFood ResilienceFood Safety and NutritionHuman Health
-2e1d25cc-b96d-4ac6-b02d-60c3a791fffb,Food Resilience
-2e1d25cc-b96d-4ac6-b02d-60c3a791fffb,Food Safety and Nutrition
-2e1d25cc-b96d-4ac6-b02d-60c3a791fffb,Human Health
-e145ae61-c035-43be-887e-5ae360509505,Local Government
-c1fc3399-4c4a-4e4b-9979-6811e8c2a1da,ClimateEnergy InfrastructureEnergy ResourcesEnergy DemandEnergy Supply
-c1fc3399-4c4a-4e4b-9979-6811e8c2a1da,Energy Infrastructure
-c1fc3399-4c4a-4e4b-9979-6811e8c2a1da,Energy Resources
-c1fc3399-4c4a-4e4b-9979-6811e8c2a1da,Energy Demand
-c1fc3399-4c4a-4e4b-9979-6811e8c2a1da,Energy Supply
-ffa787e2-67f1-437e-b6b4-777c5ff85a85,Local Government
-b9c74893-4b61-48ed-b94f-aca06f61eda2,Older Adults Health Data Collection
-e274a2f0-9c48-42df-9574-1fc87f9ee81c,ClimateFood ResilienceFood DistributionFood Production
-e274a2f0-9c48-42df-9574-1fc87f9ee81c,Food Resilience
-e274a2f0-9c48-42df-9574-1fc87f9ee81c,Food Distribution
-e274a2f0-9c48-42df-9574-1fc87f9ee81c,Food Production
-6e8fe854-d803-420e-a458-7685d92f75a4,Local Government
-8e2a467d-3e69-4019-b8ea-24ab10582f78,Local Government
-f925c7f5-ee92-4836-bdf8-8c73d4088e39,Older Adults Health Data Collection
-20a75055-87e4-4c2a-a511-d59b2f57c684,Local Government
-ddf5ca33-5ce7-48e1-80c1-54cf9be97868,ClimateHuman Health
-ddf5ca33-5ce7-48e1-80c1-54cf9be97868,Human Health
-ddf5ca33-5ce7-48e1-80c1-54cf9be97868,Local Government
-24ea9903-0e0a-491c-aa28-375c4b3b203d,Local Government
-69dbeda1-8065-48bb-8777-5491fd7d0f8f,Local Government
-208d81f3-25e7-409d-96a7-20044260568b,Local Government
-1ceb6f6c-a90b-4365-9b30-efd5745aeb36,Local Government
-25d8329e-22f2-4dd2-a3fe-7620ed4cea88,Local Government
-f0b7d466-dfa0-4b3f-a358-c827dd1283ad,Local Government
-cdacc6a5-33a8-44ed-a049-4c4c883cdd7f,ClimateFood Resilience
-cdacc6a5-33a8-44ed-a049-4c4c883cdd7f,Food Resilience
-e670576a-1f20-4375-badf-0ad3a8ea9f2c,Local Government
-d6ce119f-380e-4223-a4b6-319578b51961,Local Government
-9f2d7aad-63bc-428d-966e-51759302ef61,Local Government
-939a9141-2c30-4c84-b7b6-2892ec3abb0f,Local Government
-7d82c463-2b62-414b-a684-86095e522cfb,Local Government
-45068a6c-81a2-4f9d-8d20-ee5b4df7de93,Local Government
-23852516-0c1d-491c-9107-c507f4e944ac,Local Government
-d16561fb-69f3-4c80-aee2-6e82d821405b,Local Government
-dc38ada6-456f-4186-b490-a682b2c83e58,Local Government
-37542df9-4b70-491b-8008-b2ac16536e46,Local Government
-411c73fc-5941-4475-8024-e09fc192ef7f,Energy
-8dc34659-1e46-4d53-83c7-491736d2af56,Local Government
-822bcf36-0dff-4484-8177-a0cd869c5f94,Local Government
-a8889698-cdaa-4598-be74-334e30ca5264,ClimateHuman Health
-a8889698-cdaa-4598-be74-334e30ca5264,Human Health
-4805a924-660d-4576-b579-b2eb13b9209c,Local Government
-9e759234-6749-4610-a19a-578dbc7bfe56,Local Government
-69ca9928-21ed-43dc-9ba8-d17b5ce34f47,Local Government
-1b21cf4f-6a37-4644-8f13-01d42f9febdb,Local Government
-b8e45fd9-1a51-4575-8ad4-58c33130ab2e,Climate
-2b1732e4-eef4-44c5-9acc-d0e9fa73eb3d,Local Government
-84c06e31-009f-4088-8a84-db3c79f76117,Local Government
-83c62b95-a3a6-46eb-85f2-3b0e03af3504,Older Adults Health Data Collection
-3843aedf-872f-4e55-8ddb-2d97a8781a94,Local Government
-dd33f1ed-ff81-428c-9ac6-57cc6691481a,ClimateEnergy InfrastructureTransportationTransportation Nodes
-dd33f1ed-ff81-428c-9ac6-57cc6691481a,Energy Infrastructure
-dd33f1ed-ff81-428c-9ac6-57cc6691481a,Transportation
-dd33f1ed-ff81-428c-9ac6-57cc6691481a,Transportation Nodes
-d4e89c90-9200-4f5e-bd79-1ef3ec4555ff,ClimateFood ResilienceFood Safety and NutritionHuman Health
-d4e89c90-9200-4f5e-bd79-1ef3ec4555ff,Food Resilience
-d4e89c90-9200-4f5e-bd79-1ef3ec4555ff,Food Safety and Nutrition
-d4e89c90-9200-4f5e-bd79-1ef3ec4555ff,Human Health
-177bf5e0-c68f-4570-b191-37dd588e49ca,Local Government
-a6913102-46eb-4010-b081-b3455d33a889,ClimateFood ResilienceFood Safety and NutritionHuman Health
-a6913102-46eb-4010-b081-b3455d33a889,Food Resilience
-a6913102-46eb-4010-b081-b3455d33a889,Food Safety and Nutrition
-a6913102-46eb-4010-b081-b3455d33a889,Human Health
-5366fca8-6d96-4616-8bf2-66551e43a190,Local Government
-80214d16-c2bd-4f49-9f78-254c7855a358,ClimateArcticArctic Development and TransportTransportationTransportation Nodes
-80214d16-c2bd-4f49-9f78-254c7855a358,Arctic
-80214d16-c2bd-4f49-9f78-254c7855a358,Arctic Development and Transport
-80214d16-c2bd-4f49-9f78-254c7855a358,Transportation
-80214d16-c2bd-4f49-9f78-254c7855a358,Transportation Nodes
-a5d8cfc2-5dc4-4a57-8e47-d6b1e91dcb1d,Local Government
-750a14a4-0590-4142-a353-17afb330c335,Local Government
-f61af271-2b74-468e-938c-e64f47f98979,Local Government
-54026d79-5c3e-40c4-9a6d-eac1c0ba4578,Older Adults Health Data Collection
-3fa994af-45bf-4dde-b26b-290df29d587b,Local Government
-efcb306e-8ff3-4ed0-9e8c-3126d868f0f5,Local Government
-ede44a8f-3215-4e49-9494-ab69a7550e7f,Local Government
-16ddaed9-c957-43a5-b0b5-9b37d80bd193,Local Government
-cfe73e40-00de-4777-8e67-bbad990a5a30,Local Government
-dbc51eed-a804-467f-b582-ec8dd2d2afb7,Local Government
-e4847c8c-0ae7-4018-a493-119979cd4094,Local Government
-b7f1ca02-d563-4227-80b0-d6825c3546e0,Local Government
-0728847b-bc01-4468-ba7d-355f14d6fa22,Local Government
-0fb1badc-bc45-4fa8-bba9-7d58e91cd296,Local Government
-e947089c-f685-4b18-9ca4-60fd058e55a6,Local Government
-00103749-7b5d-4504-a3c5-20b4e6506160,ClimateFood ResilienceFood Safety and NutritionHuman Health
-00103749-7b5d-4504-a3c5-20b4e6506160,Food Resilience
-00103749-7b5d-4504-a3c5-20b4e6506160,Food Safety and Nutrition
-00103749-7b5d-4504-a3c5-20b4e6506160,Human Health
-5c79a11b-2461-4b9e-acc7-e54caba2d92a,ClimateFood ResilienceFood Safety and NutritionHuman Health
-5c79a11b-2461-4b9e-acc7-e54caba2d92a,Food Resilience
-5c79a11b-2461-4b9e-acc7-e54caba2d92a,Food Safety and Nutrition
-5c79a11b-2461-4b9e-acc7-e54caba2d92a,Human Health
-061b7083-f339-4952-9a2f-79e61127443c,Local Government
-f24fc39d-51ed-44ad-83cf-c4f071973dfd,Climate
-5340bfe5-e190-4c02-a2e5-5958c34ab8c2,Local Government
-642b18b6-bf12-46f7-bcd8-c7d53cf160c0,Local Government
-fa7bbfb7-7f50-4182-83c0-42618afc180e,ClimateEnergy InfrastructureEnergy Resources
-fa7bbfb7-7f50-4182-83c0-42618afc180e,Energy Infrastructure
-fa7bbfb7-7f50-4182-83c0-42618afc180e,Energy Resources
-91cdb2c5-a07c-42ea-8169-930daf35e9f9,Local Government
-bd6197a3-764c-4c60-bb70-f97cd0a66495,Local Government
-f6e764f5-9742-4f09-8830-9e10213ea24d,Local Government
-038deea2-0b02-48b4-9980-cbce1c4986e3,Local Government
-aae9f6a0-be28-4f38-876d-6eb59383400b,Local Government
-2567f290-c844-4bc0-a167-59b0deb3a402,Local Government
-516a3a04-f831-43e6-a82b-548f31855e6c,ClimateFood ResilienceFood SecurityHuman Health
-516a3a04-f831-43e6-a82b-548f31855e6c,Food Resilience
-516a3a04-f831-43e6-a82b-548f31855e6c,Food Security
-516a3a04-f831-43e6-a82b-548f31855e6c,Human Health
-780f6dc3-23e1-46d4-acea-91df35cde867,ClimateHuman Health
-780f6dc3-23e1-46d4-acea-91df35cde867,Human Health
-16573a83-ec69-4734-95b3-b336cd4b0ff1,Local Government
-8ae4320e-cd97-44b7-a03a-33e37b950912,Local Government
-a3b2d377-10dc-4986-9fae-f64a489666ac,Local Government
-74b564ca-ff70-4797-adf0-fc0ec42064ff,ClimateArcticCoastal FloodingEcosystem VulnerabilityEnergy InfrastructureFood ResilienceHuman HealthTransportationWater
-74b564ca-ff70-4797-adf0-fc0ec42064ff,Arctic
-74b564ca-ff70-4797-adf0-fc0ec42064ff,Coastal Flooding
-74b564ca-ff70-4797-adf0-fc0ec42064ff,Ecosystem Vulnerability
-74b564ca-ff70-4797-adf0-fc0ec42064ff,Energy Infrastructure
-74b564ca-ff70-4797-adf0-fc0ec42064ff,Food Resilience
-74b564ca-ff70-4797-adf0-fc0ec42064ff,Human Health
-74b564ca-ff70-4797-adf0-fc0ec42064ff,Transportation
-74b564ca-ff70-4797-adf0-fc0ec42064ff,Water
-1fcf10b7-d6be-4354-aea0-d2b43d8d7de1,ClimateBusinessHealthAsianTransportationTransportation Flow
-1fcf10b7-d6be-4354-aea0-d2b43d8d7de1,Business
-1fcf10b7-d6be-4354-aea0-d2b43d8d7de1,Health
-1fcf10b7-d6be-4354-aea0-d2b43d8d7de1,Asian
-1fcf10b7-d6be-4354-aea0-d2b43d8d7de1,Transportation
-1fcf10b7-d6be-4354-aea0-d2b43d8d7de1,Transportation Flow
-19e6cfae-92ed-4745-94bd-20bfab9bb086,ClimateEcosystem VulnerabilityLand Cover and Land Use
-19e6cfae-92ed-4745-94bd-20bfab9bb086,Ecosystem Vulnerability
-19e6cfae-92ed-4745-94bd-20bfab9bb086,Land Cover and Land Use
-c0ec88cb-4fc2-4eec-92f1-b374ad1f0f89,ClimateHousing and CommunityEmployment/LaborWorkforce DiversityAsianPacific IslanderNative HawaiianArctic Development and TransportArctic Peoples and EcosystemsArctic
-c0ec88cb-4fc2-4eec-92f1-b374ad1f0f89,Housing and Community
-c0ec88cb-4fc2-4eec-92f1-b374ad1f0f89,Employment/Labor
-c0ec88cb-4fc2-4eec-92f1-b374ad1f0f89,Workforce Diversity
-c0ec88cb-4fc2-4eec-92f1-b374ad1f0f89,Asian
-c0ec88cb-4fc2-4eec-92f1-b374ad1f0f89,Pacific Islander
-c0ec88cb-4fc2-4eec-92f1-b374ad1f0f89,Native Hawaiian
-c0ec88cb-4fc2-4eec-92f1-b374ad1f0f89,Arctic Development and Transport
-c0ec88cb-4fc2-4eec-92f1-b374ad1f0f89,Arctic Peoples and Ecosystems
-c0ec88cb-4fc2-4eec-92f1-b374ad1f0f89,Arctic
-74cdb264-43b1-4dc9-8c2a-bd2978c5813c,ClimateHuman Health
-74cdb264-43b1-4dc9-8c2a-bd2978c5813c,Human Health
-74cdb264-43b1-4dc9-8c2a-bd2978c5813c,Older Adults Health Data Collection
-f91f4e75-e8c3-45a0-9d3e-229fba8c2b7a,Local Government
-683448ba-5d69-4cc2-b368-783706f36c0b,ClimateArcticArctic Development and TransportEnergy InfrastructureFood ResilienceFood DistributionTransportationTransportation Nodes
-683448ba-5d69-4cc2-b368-783706f36c0b,Arctic
-683448ba-5d69-4cc2-b368-783706f36c0b,Arctic Development and Transport
-683448ba-5d69-4cc2-b368-783706f36c0b,Energy Infrastructure
-683448ba-5d69-4cc2-b368-783706f36c0b,Food Resilience
-683448ba-5d69-4cc2-b368-783706f36c0b,Food Distribution
-683448ba-5d69-4cc2-b368-783706f36c0b,Transportation
-683448ba-5d69-4cc2-b368-783706f36c0b,Transportation Nodes
-6262ecb4-57ea-4610-8e1e-74fb78a2e919,Local Government
-6742b2e4-a880-4edf-9b5e-cf3c25c88d47,Local Government
-adce51d1-8ee1-463f-89be-0cd926919abd,Local Government
-d12f9d61-c55b-4b92-b473-005feced5257,Local Government
-2ead3210-7c01-4ccd-a22c-c33a4d3e0c3a,Local Government
-8f82df58-e7c6-4730-a3fe-ba515b0f1e57,Local Government
-434eec1a-06e8-4ba1-9345-0be5ece6d5d9,Local Government
-9a372d7c-d07c-4818-b335-33384e169820,Local Government
-7055b903-8a43-44f9-b2e2-39b889f41716,Local Government
-58bc04fd-46db-4a12-a246-cb4024fc7bc7,Local Government
-d766cafe-c227-428d-a690-93d1f1eae216,Local Government
-62f4092f-f7cd-4287-bb70-7b93de4d01e3,Local Government
-fc1e0588-8aea-48d1-aa3e-75eaba0e4bac,Local Government
-9aa125f9-074e-4280-8815-269ca69e0b97,Local Government
-0286896b-7e07-48db-a684-284c62c608b5,Local Government
-e8d8b0f9-8566-4fb2-abd5-918140d0cc3d,Local Government
-8e2d147e-67cb-4908-912a-6c74225a0cef,Local Government
-37fc3375-63e8-4d63-acee-3d7d68f6d468,Climate
-a9c2df16-17a7-4057-a6c8-dda160b2dc5f,Local Government
-422134b2-03db-4132-aead-d5746ecf2d4b,ClimateFood ResilienceFood Safety and Nutrition
-422134b2-03db-4132-aead-d5746ecf2d4b,Food Resilience
-422134b2-03db-4132-aead-d5746ecf2d4b,Food Safety and Nutrition
-7f3669eb-fdca-4657-a422-04da74407c79,Local Government
-e2355bca-8582-484d-9242-a9b39522e336,Local Government
-75ad93bf-69a0-4181-b2a1-c86c93ba2d13,Local Government
-b5ed1f17-22ea-48db-9f5f-e04b3faeae6c,ClimateFood ResilienceFood Production
-b5ed1f17-22ea-48db-9f5f-e04b3faeae6c,Food Resilience
-b5ed1f17-22ea-48db-9f5f-e04b3faeae6c,Food Production
-3a1b57c5-2a48-4f5a-8dd6-33426407fd42,Local Government
-99ba6a0a-335d-4df7-a4c2-a850f0cc03d6,Local Government
-801949d8-7256-4506-a12e-ac3d1d3bd44d,Local Government
-688fd969-5c52-4780-9a98-e926d78fb216,Local Government
-974363f8-d0f1-43cf-a054-ea22d72cd10f,Local Government
-98d1dd76-6043-4b8e-a2c9-43f11dbbcffb,Local Government
-9b65dc11-95b4-468b-894c-0c2f56866b97,Local Government
-3910baeb-1fa7-4efa-867a-ad365f5a3c4c,Local Government
-878bd2db-fbc6-4634-a198-cade57705e67,Local Government
-3b0a9020-d547-48ad-a398-7151dd4fce80,Local Government
-15777263-510f-4829-ac9f-37f6500dcbe9,Local Government
-661486b0-2bf8-4904-9654-25e5466ed4b2,Local Government
-10dba3d9-533e-402c-bb51-dc0e18004653,Local Government
-4d132f37-477f-42d4-9443-ffbbb1f8ab3c,Local Government
-4d56c895-4a26-4a8f-aeff-b561ccce4df8,Local Government
-2d999775-7025-4bcb-9670-a146fc1f089b,Local Government
-7cfd5c31-1898-479c-a1a0-3621042afa86,Local Government
-ee340f99-ff0f-4727-a45f-72c9b2583eab,Local Government
-e2f87995-1070-478f-95f7-060d79b1c9a6,Local Government
-4c5d0731-9a5e-4429-932c-0c044b91627b,Local Government
-0db5bc4c-c8b2-484f-bcd5-22e92a9db3e7,Local Government
-9634319e-03f6-43fd-a39d-4d8112080b2b,Local Government
-5ddcb4d7-ae14-46dc-b184-7130d883a508,Local Government
-eaec46b7-bf7f-45a4-a8ff-d6689846241d,Local Government
-ccdb7614-8f2e-4241-8ad4-3c7fb83c6c21,Local Government
-edc44232-b923-483a-a51e-73f3a8c8fb46,Local Government
-8cac6ce5-14d3-4016-954e-d6160f024294,ClimateTransportationTransportation Network
-8cac6ce5-14d3-4016-954e-d6160f024294,Transportation
-8cac6ce5-14d3-4016-954e-d6160f024294,Transportation Network
-ab0285f8-36cb-4378-9fb3-3cde1a31d3c5,Local Government
-a354c70e-e01f-4e48-8e98-ed55a51dabe0,ClimateEnergy Infrastructure
-a354c70e-e01f-4e48-8e98-ed55a51dabe0,Energy Infrastructure
-8a001dff-e690-4b27-9350-f14b85d54e67,Climate
-d02310d6-04f5-4146-825b-fe45d449df05,Local Government
-f8ff9768-0112-4d6b-be8d-2d8db9826156,Local Government
-950b6b75-9b42-4f73-a877-0a18382f68b5,Local Government
-c143ddc9-231c-4cc5-99a0-2696f65acb60,Local Government
-93bca5fe-4a49-462f-9cc4-4b844b1e696d,Local Government
-064d1551-f339-4c4b-863a-f86f3f33e24a,ClimateTransportationTransportation Nodes
-064d1551-f339-4c4b-863a-f86f3f33e24a,Transportation
-064d1551-f339-4c4b-863a-f86f3f33e24a,Transportation Nodes
-6e8953ea-a2e9-4142-aac9-432cceec2c43,Local Government
-d5d23190-62ce-4eaa-b380-c3c2b39c5eda,Local Government
-fe3f8e9b-45ce-4ca8-9a3c-3166327ce9a1,ClimateTransportationTransportation Nodes
-fe3f8e9b-45ce-4ca8-9a3c-3166327ce9a1,Transportation
-fe3f8e9b-45ce-4ca8-9a3c-3166327ce9a1,Transportation Nodes
-a39acbaf-cc18-4e71-afd4-c880d3902aea,"ClimateArcticArctic Ocean, Sea Ice and CoastsArctic-Global Teleconnections"
-a39acbaf-cc18-4e71-afd4-c880d3902aea,Arctic
-a39acbaf-cc18-4e71-afd4-c880d3902aea,"Arctic Ocean, Sea Ice and Coasts"
-a39acbaf-cc18-4e71-afd4-c880d3902aea,Arctic-Global Teleconnections
-c4a8a3ae-2ae6-4e57-8af0-58a1627b19ae,Local Government
-2088fff2-63e3-4d63-a663-f31b9640da4d,Local Government
-07c0466f-39cc-450a-b8bf-d7ccaf1a91dd,Local Government
-7714f740-9d56-45c0-b190-ba7e3f4b0934,Local Government
-425ea689-5824-484e-8d51-2e8bdb715564,Local Government
-2fb0f5b6-ebe7-41f2-9aca-e48a995b9dd7,Local Government
-45465572-310c-49af-bc6f-153cc455622f,Local Government
-c9b3b008-5f5e-496f-8edf-0339d29efa1d,Local Government
-495db71c-503e-463a-a8fd-6af8120e8bc5,Local Government
-a838dbd6-433d-4f28-a8a4-1a626d1f801a,Local Government
-9badb3c5-bc1d-4b93-81a7-06bfaef47b36,Local Government
-2faae955-2419-4584-b02b-59876bf6a9f2,Climate
-9554ea75-f1be-4aa3-8e4e-171aee478487,Local Government
-5165e91a-94aa-4f9e-b55c-f6c946f149b4,ClimateHuman HealthFood Resilience
-5165e91a-94aa-4f9e-b55c-f6c946f149b4,Human Health
-5165e91a-94aa-4f9e-b55c-f6c946f149b4,Food Resilience
-228a775b-1293-4470-be5e-bf3b52bdb8a9,Local Government
-bea0aece-1de1-4cc7-aace-386a725f9763,Local Government
-ae88de02-74c3-4a77-a929-a431aa9d827b,ClimateFreight MovementTransportationTransportation Flow
-ae88de02-74c3-4a77-a929-a431aa9d827b,Freight Movement
-ae88de02-74c3-4a77-a929-a431aa9d827b,Transportation
-ae88de02-74c3-4a77-a929-a431aa9d827b,Transportation Flow
-6bfec16e-0fc7-4865-a424-644f2143dd78,Local Government
-38a5f4fd-10fe-4640-af1f-88ab8568ab31,Local Government
-37f99432-08b6-4f05-ad74-325e5dcbed26,Local Government
-b3bf36b0-84a3-4461-806d-29a78e93260d,Local Government
-821a01a9-a00b-41cc-89ed-ffb4e993b947,Local Government
-3babd6e3-9546-4c33-b8fd-66f05e485561,Local Government
-2310251c-7caf-4f01-b99c-3f2dc3e84e22,Older Adults Health Data Collection
-2fe29338-fdcf-4c90-ae2c-ce7c4c662e71,Local Government
-b734fdf1-154c-44b3-9c3a-041938a5e02e,"ClimateArcticMelting Glaciers, Snow and Ice"
-b734fdf1-154c-44b3-9c3a-041938a5e02e,Arctic
-b734fdf1-154c-44b3-9c3a-041938a5e02e,"Melting Glaciers, Snow and Ice"
-05206b1c-5a56-495f-85ed-522106e8f245,Older Adults Health Data Collection
-874d9957-4b99-4116-9719-fd2919aa52b4,Local Government
-d93e8802-d7c5-4c43-809e-9813ed9cab8c,Local Government
-3679576e-1bea-41b2-b5a5-d97b05f85ee8,Climate
-6da47712-38c6-4d31-ae12-d511db82c3fa,Local Government
-575e9f2e-71d5-4849-97ef-e89288eba6f0,ClimateFood ResilienceFood ProductionHuman HealthTransportationTransportation Nodes
-575e9f2e-71d5-4849-97ef-e89288eba6f0,Food Resilience
-575e9f2e-71d5-4849-97ef-e89288eba6f0,Food Production
-575e9f2e-71d5-4849-97ef-e89288eba6f0,Human Health
-575e9f2e-71d5-4849-97ef-e89288eba6f0,Transportation
-575e9f2e-71d5-4849-97ef-e89288eba6f0,Transportation Nodes
-318b229d-5d6d-49a6-9461-04fe7aa0cded,Energy
-7f2ed6b4-a0fd-40d4-92d4-32bb400fb012,Local Government
-9f5fb685-5256-4528-abc8-833a191d3a6e,Local Government
-3422d9d0-49a5-48c4-8a8a-077fb034db2a,Local Government
-9cb3227f-0a3c-4bf7-849d-1aae21c80cc1,Local Government
-72ed7f64-d95e-4909-a6c7-1f6d488f837f,Local Government
-03df8809-316c-4e15-b107-6024fb99f09f,Local Government
-02ac0641-2017-465e-b100-0bf9981b3125,Local Government
-28000c22-8864-4603-a67a-0e713249e831,Local Government
-62ac374c-0240-4ee7-885e-5b7735c08e7d,Local Government
-21ac38c6-303b-48c2-8dec-672529894c06,Local Government
-00314fa2-4e40-4ad6-a738-f31c7d0c3605,Local Government
-c8f7820f-c038-4a25-9517-93a4239fa708,Local Government
-c85b538c-17ca-4c32-bfe4-e17c873f5b3b,Local Government
-b0b91daa-60bd-47e4-984b-00066207b347,Local Government
-40d27a41-9dec-4c6b-bfeb-5de7d7df344e,Older Adults Health Data Collection
-de4df487-c2fb-41da-af82-ac98cbc818d5,Local Government
-2964afe1-0dd1-4338-a177-bb3122802a77,Local Government
-d49fa8d2-41fe-45f2-8fc8-709cc82784b1,Local Government
-33c6c0fa-d768-4119-bc49-01c8df1ec4e5,Local Government
-afb926af-a764-4f37-9fe2-cacdc37a23d2,Local Government
-06801791-cbc1-42ca-a91c-9a61a5e241c7,Local Government
-e1c15a42-1fbe-487c-9d38-def73e19ab01,Local Government
-f71c60d0-079e-4f9c-b8cd-98ae47193cb1,Local Government
-f9d5ec13-63f7-4cfd-bb14-1be99ad27916,Local Government
-da0d8de7-301c-4937-aea3-bdc6b2709079,Local Government
-db2a8ae3-cc46-468f-bb49-08bba1fb5335,Local Government
-943b0e40-0a19-4916-8aae-bf7156b3e579,Local Government
-de8895c9-b05d-464a-90d7-a30ca5acc7a8,Local Government
-fdbd9c91-4cc4-4d00-ab9f-adb6c5dcf49b,Local Government
-e8b655ce-a27c-41f9-9af0-2974cdfcb27c,Local Government
-2a3000bf-8cfc-42a3-a9a8-afd51c45ac4d,Local Government
-140c85dc-9ccf-41a4-87a4-5ae131763898,ClimateHuman Health
-140c85dc-9ccf-41a4-87a4-5ae131763898,Human Health
-3f979807-eed6-4050-909a-7fe18b7ad60e,Local Government
-af7d571d-9f0b-411a-9328-c6bd9b2db723,Local Government
-44984ba8-2c5c-426c-bb26-80f974aed0d2,Local Government
-11b4e4db-6024-49ff-8e73-3f13caae6a8e,Local Government
-c28a0752-a219-4b1d-a161-fecff1af340c,Local Government
-e9b56146-3d80-4b2e-979d-d2c6dd1c7149,Local Government
-6a5a3947-bcb0-4ddb-be58-f6b8d447960b,ClimateHuman Health
-6a5a3947-bcb0-4ddb-be58-f6b8d447960b,Human Health
-1502c740-7ac3-493e-a7a0-afd202679808,Local Government
-af2485d4-5bbd-4251-98f9-80e260d31180,Local Government
-4959684f-5e0b-400a-8b28-6b6138a988d0,Local Government
-57683980-22af-4bba-af4e-6f4fa44afc89,Local Government
-85dcd56a-2833-45dd-b244-b08ddbb9a9ad,Local Government
-15d020fe-9153-4673-a59e-11d7ad83068c,ClimatePacific IslandsHawaiiEducationK-12Energy InfrastructureTransportationTransportation Network
-15d020fe-9153-4673-a59e-11d7ad83068c,Pacific Islands
-15d020fe-9153-4673-a59e-11d7ad83068c,Hawaii
-15d020fe-9153-4673-a59e-11d7ad83068c,Education
-15d020fe-9153-4673-a59e-11d7ad83068c,K-12
-15d020fe-9153-4673-a59e-11d7ad83068c,Energy Infrastructure
-15d020fe-9153-4673-a59e-11d7ad83068c,Transportation
-15d020fe-9153-4673-a59e-11d7ad83068c,Transportation Network
-8526c9e2-48a8-4ab8-8e34-9bc9855dcf22,Local Government
-4a4ff84b-bbe1-4708-aace-5596b7966155,Local Government
-e9e78ea4-7a82-46a2-bd8c-c7b2ae84b2c1,Local Government
-bc9d279d-383f-478d-ab33-0741cad53398,Local Government
-9423b2b3-625c-431c-8f3d-5eb3ac0e2690,Local Government
-e24b3c2f-2a4a-4b22-8c48-34963ce56c73,"ClimateArcticArctic Ocean, Sea Ice and CoastsArctic Peoples and Ecosystems"
-e24b3c2f-2a4a-4b22-8c48-34963ce56c73,Arctic
-e24b3c2f-2a4a-4b22-8c48-34963ce56c73,"Arctic Ocean, Sea Ice and Coasts"
-e24b3c2f-2a4a-4b22-8c48-34963ce56c73,Arctic Peoples and Ecosystems
-011786d4-1f51-447e-9f7e-6edbb9a53165,ClimateEnergy InfrastructureTransportationTransportation Network
-011786d4-1f51-447e-9f7e-6edbb9a53165,Energy Infrastructure
-011786d4-1f51-447e-9f7e-6edbb9a53165,Transportation
-011786d4-1f51-447e-9f7e-6edbb9a53165,Transportation Network
-3a348282-1d9f-4055-aa12-d7f6fd76f5f7,ClimateFood ResilienceFood ProductionFood Safety and Nutrition
-3a348282-1d9f-4055-aa12-d7f6fd76f5f7,Food Resilience
-3a348282-1d9f-4055-aa12-d7f6fd76f5f7,Food Production
-3a348282-1d9f-4055-aa12-d7f6fd76f5f7,Food Safety and Nutrition
-467832d6-3545-4a69-a68b-ab2b4f72b2f0,ClimateHuman Health
-467832d6-3545-4a69-a68b-ab2b4f72b2f0,Human Health
-ed149e3e-22ba-4abb-99d1-f07e0d10c059,Climate
-06793e25-2776-41af-aa61-bd92f4ab37ce,Local Government
-6a02011a-ef07-44f9-a626-8962c7cf23dc,Local Government
-7c463da9-5699-4465-a71d-ceb33a5b323b,Local Government
-34897dbc-8ac4-40c9-b0f4-824fb991ae5d,ClimateHuman Health
-34897dbc-8ac4-40c9-b0f4-824fb991ae5d,Human Health
-1455bc5c-ec34-4399-a3b2-6d5d66d1605f,Local Government
-31584562-c99d-4119-906f-1d11b0ae64b1,Local Government
-2630fefd-8737-4ed1-948e-ae2626284658,Local Government
-09c31948-2b30-45f4-9f7a-d917bba59d1d,Local Government
-9f5e086d-e6db-45da-a4a3-518bced26f76,Local Government
-a3992279-6065-4819-8e55-72bde15c6603,Local Government
-79a7470d-1683-4591-af9c-d2c391b2841b,Local Government
-eb76e355-d25d-48d2-bff8-a35c69ab32e3,Climate
-21cb1769-0d45-4aa5-9882-dee3422426cf,Climate
-7e7c7b70-036b-42e7-88f8-3411e78211d8,ClimateFood ResilienceFood Production
-7e7c7b70-036b-42e7-88f8-3411e78211d8,Food Resilience
-7e7c7b70-036b-42e7-88f8-3411e78211d8,Food Production
-c70faabe-e7ac-4fed-821a-501d2871daaf,Local Government
-27a5165a-fa58-40cf-a18f-260d5a4e33e6,ClimateEnergy InfrastructureEnergy ConversionEnergy ResourcesEnergy SupplyTransportationTransportation Nodes
-27a5165a-fa58-40cf-a18f-260d5a4e33e6,Energy Infrastructure
-27a5165a-fa58-40cf-a18f-260d5a4e33e6,Energy Conversion
-27a5165a-fa58-40cf-a18f-260d5a4e33e6,Energy Resources
-27a5165a-fa58-40cf-a18f-260d5a4e33e6,Energy Supply
-27a5165a-fa58-40cf-a18f-260d5a4e33e6,Transportation
-27a5165a-fa58-40cf-a18f-260d5a4e33e6,Transportation Nodes
-63ed1fa3-d91c-4fc8-8a8f-fe2066ed6a26,Local Government
-0425c445-b472-4997-a360-663cd8250b68,Local Government
-b09eb4da-ee6c-40c2-8f73-45d0eb36a27f,Local Government
-a7a6ab89-0f69-4630-938e-bb14f8301f50,Local Government
-bc4dc300-516b-4643-9c3d-af3d5fbe4f96,Local Government
-95e8c658-4818-45f4-945b-3a6b9309c5d3,Local Government
-652a76f0-2790-4a4e-a6f7-bee546deb825,Local Government
-83f47484-47cf-42c2-bbf0-fa05f4246435,ClimateCoastal FloodingEnergy InfrastructureHuman HealthTransportationPhysical Data
-83f47484-47cf-42c2-bbf0-fa05f4246435,Coastal Flooding
-83f47484-47cf-42c2-bbf0-fa05f4246435,Energy Infrastructure
-83f47484-47cf-42c2-bbf0-fa05f4246435,Human Health
-83f47484-47cf-42c2-bbf0-fa05f4246435,Transportation
-83f47484-47cf-42c2-bbf0-fa05f4246435,Physical Data
-6ca1455b-865f-474f-b8e6-a882abea8be4,Local Government
-148a1ddf-c3e9-4f2c-b393-906641db3817,ClimateEnergy InfrastructureEnergy ConversionEnergy ResourcesEnergy Supply
-148a1ddf-c3e9-4f2c-b393-906641db3817,Energy Infrastructure
-148a1ddf-c3e9-4f2c-b393-906641db3817,Energy Conversion
-148a1ddf-c3e9-4f2c-b393-906641db3817,Energy Resources
-148a1ddf-c3e9-4f2c-b393-906641db3817,Energy Supply
-83ca0c18-7c6d-49a6-9b80-57faad799839,Local Government
-186fb22f-1d79-4638-a9d3-f9b2742f7570,Local Government
-d9ba7cc1-bc26-45a3-8c75-41dc9334efd5,Local Government
-7551527b-f2c1-478a-ae8c-8c76c4e1fe49,Local Government
-79e8dd8c-6427-4437-8135-6b59647d4960,ClimateArcticArctic Development and TransportEnergy InfrastructureTransportationTransportation Nodes
-79e8dd8c-6427-4437-8135-6b59647d4960,Arctic
-79e8dd8c-6427-4437-8135-6b59647d4960,Arctic Development and Transport
-79e8dd8c-6427-4437-8135-6b59647d4960,Energy Infrastructure
-79e8dd8c-6427-4437-8135-6b59647d4960,Transportation
-79e8dd8c-6427-4437-8135-6b59647d4960,Transportation Nodes
-8b07c935-fe42-4883-a0be-0c13117e2b23,Local Government
-83037a9a-7502-4509-9ea8-84ad7b69fb0c,Local Government
-ae4ea235-30cd-4601-b9f7-27565fcddc9e,Local Government
-8a8f7881-0fd4-4485-8f5b-f115212e2a03,Local Government
-db92131d-09e4-4a4f-a2cf-8b4cfb028796,Local Government
-629ac813-3f38-4ce9-958d-dfdb3cdb8f6d,Local Government
-0ac3dd96-061d-4ad0-95e6-281b2d81d155,Local Government
-c48338b8-acf7-4221-8ad5-10a7cd73dfbd,Climate
-7c09f638-4a65-44b0-ba11-cb2ad5aeaeb5,Local Government
-b565e782-afe9-4813-91f4-dce8da761ee6,Local Government
-ff3feea5-bc0c-4a3f-a76b-d0e133c19b51,Local Government
-47054b80-aec7-4464-9329-5a6e1c069f50,Local Government
-ffd346ec-3cfd-4186-b447-9686b03c4422,Local Government
-76eab203-90ab-4cad-8113-06368326a497,Local Government
-960b7513-0c62-4574-95ca-34dde3b6e89d,ClimateWWHGDCoastal Flooding
-960b7513-0c62-4574-95ca-34dde3b6e89d,WWHGD
-960b7513-0c62-4574-95ca-34dde3b6e89d,Coastal Flooding
-154b5dd3-19c1-4460-b772-8aa8510fdb4c,Local Government
-3ead2216-4d0e-48ea-8367-23aa6f5b95fb,"ClimateArcticArctic Ocean, Sea Ice and CoastsMelting Glaciers, Snow and Ice"
-3ead2216-4d0e-48ea-8367-23aa6f5b95fb,Arctic
-3ead2216-4d0e-48ea-8367-23aa6f5b95fb,"Arctic Ocean, Sea Ice and Coasts"
-3ead2216-4d0e-48ea-8367-23aa6f5b95fb,"Melting Glaciers, Snow and Ice"
-f5cdf64f-3d13-402e-931a-415ee7162ae5,Local Government
-fd0a7ef8-6a2a-45d1-8f8d-5fedb0b67b96,Local Government
-1f44bb62-6948-4565-a362-000e5eabacec,ClimateArcticPermafrost and Arctic LandscapesArctic Peoples and EcosystemsFood Resilience
-1f44bb62-6948-4565-a362-000e5eabacec,Arctic
-1f44bb62-6948-4565-a362-000e5eabacec,Permafrost and Arctic Landscapes
-1f44bb62-6948-4565-a362-000e5eabacec,Arctic Peoples and Ecosystems
-1f44bb62-6948-4565-a362-000e5eabacec,Food Resilience
-489d21d6-63ed-43a9-9f49-0822aef5e090,"ClimateWaterEcosystem Services and ProcessesAtmospheric, Earth and Ocean SciencesHydrology"
-489d21d6-63ed-43a9-9f49-0822aef5e090,Water
-489d21d6-63ed-43a9-9f49-0822aef5e090,Ecosystem Services and Processes
-489d21d6-63ed-43a9-9f49-0822aef5e090,"Atmospheric, Earth and Ocean Sciences"
-489d21d6-63ed-43a9-9f49-0822aef5e090,Hydrology
-0f73eb01-18e6-4d8b-b72f-933086ca8e70,Local Government
-f2bf5ee2-7ba1-4e0d-95cc-59ebc0729fad,Local Government
-cdd4a120-3f9a-4fc9-817e-5f4dcc74db49,Local Government
-a64a4e2d-0312-4205-a263-9eb588d60d13,Local Government
-6f748741-9113-475d-b914-a71ec03ab07c,Local Government
-f956058b-ae65-475b-838d-be679e27c5d1,ClimateFood ResilienceFood Safety and NutritionFood Security
-f956058b-ae65-475b-838d-be679e27c5d1,Food Resilience
-f956058b-ae65-475b-838d-be679e27c5d1,Food Safety and Nutrition
-f956058b-ae65-475b-838d-be679e27c5d1,Food Security
-efc61d4f-4bd2-4e09-8f1d-3f0d129f63e7,Local Government
-d3a5b3f0-e31d-4c77-bdac-73313ee98221,Local Government
-ddd3fd95-0062-439e-8ee4-66674faa5502,Local Government
-23957b0c-9c96-49e3-9b36-9cb2fdefc4d9,"ClimateEcosystem Vulnerability, Land Cover and Land Use, Ecosystem Services and Processes"
-23957b0c-9c96-49e3-9b36-9cb2fdefc4d9,"Ecosystem Vulnerability, Land Cover and Land Use, Ecosystem Services and Processes"
-3d4812df-f7dc-4563-938e-399f2d20d33e,Local Government
-22496370-5eba-4e1d-ad9f-d8a9d139cb67,Local Government
-7608ffdf-0111-4336-9dc8-cf31103a0c69,Local Government
-962677e3-9e4f-4f2c-96b7-5af5d1ecff62,Local Government
-0f4c7c59-6513-4b93-8e81-09e96d60614b,Climate
-9f9b04d8-529f-460e-9de4-37099587baaa,Local Government
-b7fc5731-b695-48fd-82fd-96ec53c50437,Local Government
-74c83fed-0d03-4326-89a2-d6d0d599ae3c,Local Government
-70c3bb6c-07c3-4adc-85f4-f532a20b8287,ClimateArcticPermafrost and Arctic LandscapesArctic Peoples and Ecosystems
-70c3bb6c-07c3-4adc-85f4-f532a20b8287,Arctic
-70c3bb6c-07c3-4adc-85f4-f532a20b8287,Permafrost and Arctic Landscapes
-70c3bb6c-07c3-4adc-85f4-f532a20b8287,Arctic Peoples and Ecosystems
-fdb75544-a724-4767-9a71-0d849305e4b8,Local Government
-87482823-81e1-4e68-8fda-46927d3bca0c,ClimateFood ResilienceHuman Health
-87482823-81e1-4e68-8fda-46927d3bca0c,Food Resilience
-87482823-81e1-4e68-8fda-46927d3bca0c,Human Health
-0c0ef554-b35b-4036-ba9e-43f3b4657d44,Local Government
-b0b38f67-1555-4663-bb2c-3ee5c0fff288,ClimateCoastal FloodingWater
-b0b38f67-1555-4663-bb2c-3ee5c0fff288,Coastal Flooding
-b0b38f67-1555-4663-bb2c-3ee5c0fff288,Water
-c0e672fa-6eef-4269-b3c4-83313a1252e6,Local Government
-185adfee-76ac-4183-80f4-0f2dbc34a9b0,Local Government
-217c4ab0-00a7-4c5d-b8d2-6af9bda28499,Local Government
-f43d8d09-29c2-45ca-90ce-48bb588009d6,Older Adults Health Data Collection
-f81d773a-8ce9-4c5d-a677-3659788edd22,Local Government
-3bae07c8-3627-4db1-b62c-eb4796628c09,Local Government
-d5367c57-6601-41d5-8a14-e5bc9ff44ff8,Local Government
-92f2eac6-8043-4028-b9aa-177a0d24e128,Climate
-37f9a045-8ecb-4f50-82ee-c2cd90843be2,Local Government
-b79deb3a-b4e2-4198-8f9d-9e388169f5db,Local Government
-99be9ae6-9b4a-4486-b8dd-b71e6272b543,Local Government
-96aaa5f6-f6dd-4d2e-820a-ee0720c5972d,ClimateEcosystem VulnerabilityLand Cover and Land UseFood ResilienceFood Production
-96aaa5f6-f6dd-4d2e-820a-ee0720c5972d,Ecosystem Vulnerability
-96aaa5f6-f6dd-4d2e-820a-ee0720c5972d,Land Cover and Land Use
-96aaa5f6-f6dd-4d2e-820a-ee0720c5972d,Food Resilience
-96aaa5f6-f6dd-4d2e-820a-ee0720c5972d,Food Production
-f396eb88-0943-4bfe-8c02-4315e2e739ab,Local Government
-d2bf1029-9aaf-4d38-b6cd-4485e80df107,Local Government
-c98820c4-50e8-436b-af1f-9d43546bf448,Local Government
-9f96a440-f27c-4867-a274-b33317b677a0,Local Government
-490e1aa1-2ce4-4659-affc-18313448d0ed,Local Government
-5be36919-6384-4b2d-94d9-fba01aed49c0,Local Government
-887660c5-efa7-43e1-bb47-2b25497953b6,Local Government
-ca93b13a-7ed6-447a-a486-bbcc50e2b2db,Local Government
-bc6be0c7-084e-4ac4-8321-e42133d6b060,Local Government
-5981c7f7-4b21-4825-81bd-2f978f1be03a,Local Government
-7a3eef30-2f7a-4209-9724-33f91abe8635,Local Government
-518fd05f-257a-45d8-a031-1ee3d3e49a14,Local Government
-d4e1e10a-5648-4b4b-8aa2-55044d9249a3,Local Government
-d92a247b-93ad-4404-9271-415c7f5d5c5f,Local Government
-7134c855-f8eb-4ac4-b010-b8080726a84d,Local Government
-3e8e297b-3c5d-4f23-9f60-e4332bba06c2,ClimateEnergy InfrastructureFood ResilienceFood DistributionTransportationTransportation Network
-3e8e297b-3c5d-4f23-9f60-e4332bba06c2,Energy Infrastructure
-3e8e297b-3c5d-4f23-9f60-e4332bba06c2,Food Resilience
-3e8e297b-3c5d-4f23-9f60-e4332bba06c2,Food Distribution
-3e8e297b-3c5d-4f23-9f60-e4332bba06c2,Transportation
-3e8e297b-3c5d-4f23-9f60-e4332bba06c2,Transportation Network
-520fe3d5-8d3f-463b-89b0-eb1fe5c260fb,Local Government
-12ef7754-7dd0-4b22-ab16-6e19a73780ff,Local Government
-15c91f8e-9e6e-4d16-9cbc-929926cc124e,Local Government
-0c704c69-634b-40f4-b2e9-8700b235efbe,ClimateEcosystem VulnerabilityBiodiversity
-0c704c69-634b-40f4-b2e9-8700b235efbe,Ecosystem Vulnerability
-0c704c69-634b-40f4-b2e9-8700b235efbe,Biodiversity
-55efafa2-cec9-4384-b4fb-7a659d95adf9,Older Adults Health Data Collection
-1e79c7f1-76af-4d11-9b69-9830689c8f40,Local Government
-370ad944-1d19-4d45-9329-ff252ea3b7c8,Local Government
-88c6e09a-529b-492d-ba50-e89f4fcd7cba,Local Government
-8ffcf8ef-54cb-48fb-9a50-f796e39034c0,Local Government
-42a734bf-0ed3-4180-95ce-13bcb9971a84,Local Government
-0185d400-b889-43e1-a1df-20ab3b844002,Local Government
-08dac2c8-b8d4-4f66-ae4b-fa3af6a1dd9d,Local Government
-845682ce-2859-4697-8eac-80feb8160476,Local Government
-c2958ae6-2db7-4099-9be3-5265f4459235,Local Government
-d98a7cac-e762-4397-9933-14412c329e62,Local Government
-32a53998-915f-463b-b203-639d3667b05d,Local Government
-96cc5e76-cb13-40bf-bab0-6fdac34f2afc,Climate
-a4b68f1a-1490-45d1-a59e-f9c17a63f70e,Local Government
-3e4dd2cf-db46-4589-a57e-49d9ad456565,Local Government
-b00e9c03-1afa-4d34-aa5f-4349e555c9ce,Local Government
-6377cb01-6ddc-446b-8d27-f2e1c286361d,Local Government
-cdd94d83-5362-4cb9-a1c0-6399e94349c8,ClimateFood ResilienceFood Safety and Nutrition
-cdd94d83-5362-4cb9-a1c0-6399e94349c8,Food Resilience
-cdd94d83-5362-4cb9-a1c0-6399e94349c8,Food Safety and Nutrition
-68532a9a-885a-4898-b234-583fba6c0fb3,Local Government
-7b1dfe6e-465f-4bce-9553-05af33f4c523,Local Government
-23eeb385-790a-4139-bcdc-cb42418945d1,Local Government
-0f8228f9-7820-47f8-8ef5-d764a69f2b04,Local Government
-9da7979f-6d2e-4e8a-b1d9-9626ae58e775,Local Government
-d5b752c4-78d0-41d8-935c-9804bfa104fd,Local Government
-cb03065a-129f-425b-a62f-e743e196ff45,Local Government
-062fce6a-ccfb-414c-b7a8-ac9667ebda85,Local Government
-d448735b-8ac7-4298-9d8b-ee99ad386875,ClimateHuman Health
-d448735b-8ac7-4298-9d8b-ee99ad386875,Human Health
-0e99f838-6b50-48fb-9ecd-24ddf7d7485d,"ClimateArcticArctic Ocean, Sea Ice and Coasts"
-0e99f838-6b50-48fb-9ecd-24ddf7d7485d,Arctic
-0e99f838-6b50-48fb-9ecd-24ddf7d7485d,"Arctic Ocean, Sea Ice and Coasts"
-43ccd075-d572-4f05-856e-1e3e74cc2ac7,Local Government
-a0ad81a1-62d6-4c8e-b410-8af7acd125e2,Local Government
-079c357f-9f42-43c3-b44f-cf0b5f646f72,Local Government
-7b1fe57d-ba3e-46f4-a7a2-fa6eb42416d3,Older Adults Health Data Collection
-feca3386-b350-480c-ba72-f7364eb4c6a0,Local Government
-b8e1fe27-38ed-4add-9c27-fa4562b7e2f8,Older Adults Health Data Collection
-336e970b-d87f-4d6e-b9ff-ab1e3228754b,Local Government
-2099610a-6937-4d72-84f0-9f3ec51432ad,Local Government
-0e17b470-e812-4bf4-a84b-8841e9c0a34a,Local Government
-b152512c-737d-4c0d-b310-a5640eed2b73,Local Government
-56b8268b-8e3b-4af0-a41c-a8bc44ea6beb,ClimateEcosystem VulnerabilityBiodiversity
-56b8268b-8e3b-4af0-a41c-a8bc44ea6beb,Ecosystem Vulnerability
-56b8268b-8e3b-4af0-a41c-a8bc44ea6beb,Biodiversity
-86521d56-fd60-4753-bbeb-3631d28e1bcb,Local Government
-5ca97696-9a6b-46fd-a602-ea74df3ff272,Local Government
-67fb748e-104b-4cf5-a539-675576202161,Local Government
-4c8ebcd5-062e-4431-86c8-7c3ddf3f72c4,Local Government
-0f4d1e1a-03fb-4bcd-910f-146068bfb883,Local Government
-f209190e-b629-4334-a440-07e3f3c8244e,Local Government
-8fa96d70-31bc-41d7-859f-f530a59f76c2,Local Government
-4a660141-cd4f-47ea-9380-7ea5e48536b8,Local Government
-5df84651-0bf6-4471-aa32-2a0eb793ae95,Climate
-96fb2c0d-c763-4cb2-bdd0-38107531ecd1,Local Government
-8a8b6806-eb3b-4f6f-8fad-ed8bd8e68115,Local Government
-bb624e97-52f3-4beb-bf12-782d9553e9d6,Local Government
-8c610f7f-f575-4323-950d-1d2a1203f5d4,Local Government
-4fa1d655-2367-40b0-b949-868af8f62260,Local Government
-42a87f1b-1dc9-4e96-8b28-fd351c6ec07b,Local Government
-2011c102-bf7f-4c01-89a1-4dbbed2b3c76,Local Government
-cc19b067-e0ee-47b9-bffd-2d4b04ad883b,Local Government
-49d368c2-761d-4f7a-bd7f-bd57f7ccf2d3,Local Government
-4ae5de81-d48b-4663-a446-b14ffe577e17,Local Government
-e99b60cb-1d1b-4fa3-b5f2-6e1be7efa2e3,Local Government
-e2b47eb3-e6a3-47ec-a058-fe643c56bd66,Local Government
-a9cb9907-8bb7-4ba7-9e87-6faed19fb3ad,Local Government
-d91eb364-6c9b-4eef-895f-de3d2c7c64eb,Local Government
-ea716f14-4ebb-48cf-b4e2-36200e4f0648,Energy
-c6b2713e-c09a-4ab4-904d-781cfef0e37a,Local Government
-47ba1549-cabe-46f2-bf5e-15773fe86b21,Local Government
-83adb480-b08b-4381-81c1-6c62e9ee4cd6,Local Government
-3a5ad6bf-b2e7-4ff7-8102-c82459d7f556,Local Government
-1c757c26-04dd-4161-a4f9-bf05d2aa6bff,Local Government
-72b63e6b-0a49-42d9-b050-86956fd39f10,Local Government
-14493077-6cb5-4f69-b626-3efc53353490,ClimateHuman Health
-14493077-6cb5-4f69-b626-3efc53353490,Human Health
-a2fcf9ec-56f5-47c4-872c-dd8304b29aae,Local Government
-7438a171-ba03-4a31-b3d8-a85ccd04f8dc,Local Government
-6c311809-4430-44d2-a2af-f0e02f075bf8,Local Government
-ada6a7ce-fdcd-48d3-a150-dff14e1b585d,Local Government
-597fcdb5-3e49-4224-bce1-63d4c8a58523,Local Government
-ce1483ee-2a24-4d7d-9c9d-e00a6c93055f,Climate
-7a51ea7d-739c-47f8-ae1d-a5af2dacf98e,Local Government
-162f22bd-6410-48c6-9f58-a7d0cc3ca2aa,Local Government
-4ee6dbdf-2656-4202-b27f-794cb4eafebb,Local Government
-efa89b2b-82b2-45ed-bd55-65f82ff67f6f,Local Government
-0b7fbfb3-caf8-45cc-8bd9-79c026b6cea8,Local Government
-8dea4219-5fe9-4f85-892a-a0fbbe8344a6,Local Government
-fc64d54f-9b9f-4a6f-a090-2e2b7689349e,ClimateHuman Health
-fc64d54f-9b9f-4a6f-a090-2e2b7689349e,Human Health
-4aa27047-eac0-4302-8bf4-7e0410d35d2c,Energy
-0ae767f9-337b-4c58-9f23-16bc85f6e241,Local Government
-823a38a2-8161-444d-8d34-730f53fcc7db,Local Government
-4d4b645f-d6b5-4dec-ad76-674059ad22d4,Local Government
-b4f2799a-8535-4490-bf26-1148df751f06,Local Government
-157698e8-98af-4d23-82ca-bd5d0fbf3594,Local Government
-63f3f094-18d8-4c9e-b6e9-0cb2f90d4fe5,Local Government
-8b447f4f-248d-427d-b1e7-dbafe0a7d3bd,Local Government
-c00df2bc-c0c1-4f7b-9346-769907de553f,Local Government
-1b71119a-8d68-4d09-8742-1431237dbb0f,Local Government
-33a9a6a3-1896-492a-85af-df1e4a5294cb,Local Government
-52cef7e1-1aa3-4f73-a045-3725c918444f,ClimateFood ResilienceFood Safety and Nutrition
-52cef7e1-1aa3-4f73-a045-3725c918444f,Food Resilience
-52cef7e1-1aa3-4f73-a045-3725c918444f,Food Safety and Nutrition
-ec97d611-e564-4d56-a435-b148cdc68ef3,Local Government
-294274b8-3453-4c8e-8f52-4323786c5515,"ClimateArcticMelting Glaciers, Snow and IcePermafrost and Arctic Landscapes"
-294274b8-3453-4c8e-8f52-4323786c5515,Arctic
-294274b8-3453-4c8e-8f52-4323786c5515,"Melting Glaciers, Snow and Ice"
-294274b8-3453-4c8e-8f52-4323786c5515,Permafrost and Arctic Landscapes
-20cf733e-9ede-4bfa-b653-90b2b661fcbc,Local Government
-41d4b8b4-2c62-46a1-a4db-3038544eff06,ClimateHuman Health
-41d4b8b4-2c62-46a1-a4db-3038544eff06,Human Health
-8e1920a0-daab-491a-b3ac-8700bd2a2269,Local Government
-a26186ef-2786-45c1-8a19-1c9c7d9bf490,Local Government
-0a44d630-3d05-438a-a585-8330ab568872,Local Government
-4460a97c-3c31-4499-8aee-bc7be7d526ec,ClimateTransportationTransportation Nodes
-4460a97c-3c31-4499-8aee-bc7be7d526ec,Transportation
-4460a97c-3c31-4499-8aee-bc7be7d526ec,Transportation Nodes
-b33c6a18-891e-4721-b429-c8ed709c3d41,Local Government
-505d9af1-f108-41f1-a3e0-5c6be7505510,Local Government
-f6bca8a5-ab19-4f18-b1d5-3d84aa355f5c,Local Government
-dfb18c26-40f9-4ec0-a13a-e895e7615704,ClimateCoastal FloodingHuman Health
-dfb18c26-40f9-4ec0-a13a-e895e7615704,Coastal Flooding
-dfb18c26-40f9-4ec0-a13a-e895e7615704,Human Health
-a7685cfe-065b-49e7-86e6-6b88fff96fc7,Local Government
-9a37d479-2ec3-47e7-b29b-2ae2081f1ac2,Local Government
-28be8579-4e9c-4ac6-aa4e-bcc7cad49d08,"ClimateEcosystem VulnerabilityAtmospheric, Earth and Ocean SciencesEnergy Infrastructure"
-28be8579-4e9c-4ac6-aa4e-bcc7cad49d08,Ecosystem Vulnerability
-28be8579-4e9c-4ac6-aa4e-bcc7cad49d08,"Atmospheric, Earth and Ocean Sciences"
-28be8579-4e9c-4ac6-aa4e-bcc7cad49d08,Energy Infrastructure
-30af902c-34fa-4555-bb38-25f29ef0930a,Local Government
-3d4a415b-1f91-40bd-9d5f-ad72d8bff67e,Local Government
-38b3e095-1c21-4098-ae9e-684193106abd,Local Government
-709bf895-8bac-46ba-9012-93b3ea13933b,Local Government
-1e20a8ba-94ff-49c1-bc5d-11b8230279ac,Local Government
-6a78d8de-6604-4cf7-8bae-3693b6003ae5,Local Government
-9f3c1639-8d2e-485f-86aa-f1affa701821,Local Government
-7d9a1a71-4a12-4e5c-8832-ceed2373e0bc,Local Government
-00c50f05-7960-405a-8099-dbba5dca5ea7,Local Government
-54970ce3-02e6-4b48-8514-4aa31bd6edca,Local Government
-d90beabe-9310-4738-b9b2-925dc192e3e9,Local Government
-dd4593bb-1133-484e-a792-16b130b5663a,Local Government
-1d2b8d2b-8cec-4b58-8f7d-6572ed2297fe,Local Government
-0d229036-fa50-4e7b-94ad-198e0776e66d,Older Adults Health Data Collection
-19bd6331-8bd1-40a5-84a7-6834a9157bf9,Local Government
-32072520-8694-4055-9059-266383f0ea8e,Local Government
-81656808-c11f-414c-9fb6-b88edc1fe137,Local Government
-9be2ab6c-111c-48f2-9ed4-bd1dc5d3af50,Local Government
-6cdf794b-74a1-4e2f-a7ca-1ddc191814cc,ClimateBiodiversityEcosystem Vulnerability
-6cdf794b-74a1-4e2f-a7ca-1ddc191814cc,Biodiversity
-6cdf794b-74a1-4e2f-a7ca-1ddc191814cc,Ecosystem Vulnerability
-3dcb3f33-3b4b-41c4-b3d1-051c1974ba8d,Local Government
-61121cc3-08cf-48da-87d4-22f9d36dae92,Local Government
-952a1fd4-ba6b-4aa4-b3e3-6103512c885b,Local Government
-dc1e834a-07f9-49e0-bfcc-0260c476d09e,Local Government
-5ada6c56-a0e8-4487-8ecc-c871314f3ac1,Local Government
-ba1873fa-3761-413d-8ae8-1002b38c78a1,Local Government
-fa6ed59b-e6df-4d11-9fc4-8c631d0ce41d,Local Government
-e5f83087-f414-4c72-aa8c-5a1015926f38,Local Government
-cb79da39-c2f4-4b8e-b049-898d3b62093a,Local Government
-fd815933-a051-4c08-85d1-827d7594f27b,Local Government
-0f9a16fc-8a29-4e4c-bffd-eab568c02278,Local Government
-33ad7787-9dcb-4409-9a3e-82802f6b6c71,Local Government
-8044a5a4-cd78-4adf-a70d-164291d3bb18,Local Government
-435dd8bc-6ecb-4bc1-af83-fd4e94a6895f,Local Government
-aa84042f-d0a2-45f1-bf80-fb9a466f34b9,Local Government
-e134e77f-1d2a-4c0b-b652-1254080b7ec7,Local Government
-a501dae5-2bea-4fd9-a996-9b1b3edfd1ea,Local Government
-b405f74f-ba97-40e6-a2cd-80fad26c0370,Local Government
-a9d245df-86a7-4514-9431-3481010c50c8,Local Government
-52420eda-6c61-4901-b732-47f02470d579,Local Government
-d9e84f74-2d60-48ec-9b16-a008cf79ecb6,Local Government
-1069a828-d811-4f81-8aa6-aa4858c988f3,ClimateHuman Health
-1069a828-d811-4f81-8aa6-aa4858c988f3,Human Health
-6af1870d-e451-4ab9-839a-25969ee570a6,Local Government
-89036dfd-a6bb-40cc-a4dd-d01d62e6682d,Local Government
-c66a2ab7-dfea-4fae-84a0-750b5ec447b3,Local Government
-182953bb-d7ed-404e-8f66-2cd6e58d5925,Local Government
-54513724-7384-4849-b790-3b902dc5920a,Climate
-c348c836-a047-4d9d-b2c0-7401743c97cf,Local Government
-1c3a4523-aaf6-4606-b1fd-ed65bcaefdec,"ClimateWaterAtmospheric, Earth and Ocean SciencesHydrology"
-1c3a4523-aaf6-4606-b1fd-ed65bcaefdec,Water
-1c3a4523-aaf6-4606-b1fd-ed65bcaefdec,"Atmospheric, Earth and Ocean Sciences"
-1c3a4523-aaf6-4606-b1fd-ed65bcaefdec,Hydrology
-a3810622-2b27-4307-a321-eaf435bebf34,Local Government
-293186db-9e81-4cc8-8c3a-4b3f6eb15826,Local Government
-62fed778-456d-4a4f-959c-45c586be348c,Local Government
-a2aaf227-55f1-4484-a5d9-0f1a1449acb0,Local Government
-77ae4b5b-2321-43ea-8792-bc3d7675b6d3,Local Government
-d9a7815a-8965-42b3-9d5c-a3a3103e321d,Local Government
-d9dac144-1dce-4770-8750-aaf9037b2c48,Local Government
-9e0cfa94-61ac-430b-9ff3-847e4d1e3087,ClimateArcticArctic Weather and Extreme EventsPermafrost and Arctic LandscapesArctic-Global Teleconnections
-9e0cfa94-61ac-430b-9ff3-847e4d1e3087,Arctic
-9e0cfa94-61ac-430b-9ff3-847e4d1e3087,Arctic Weather and Extreme Events
-9e0cfa94-61ac-430b-9ff3-847e4d1e3087,Permafrost and Arctic Landscapes
-9e0cfa94-61ac-430b-9ff3-847e4d1e3087,Arctic-Global Teleconnections
-64ce2f96-5e28-46db-b05a-0f922cff5b73,Local Government
-f471d984-a970-429f-ae74-b70dfeed88a9,Local Government
-e3baaf42-f8ef-47d6-b6b3-447c67f25ef8,"ClimateArcticArctic Ocean, Sea Ice and CoastsCoastal FloodingEcosystem VulnerabilityChanging OceansEnergy InfrastructureEnergy SupplyEnergy Transmission/distribution"
-e3baaf42-f8ef-47d6-b6b3-447c67f25ef8,Arctic
-e3baaf42-f8ef-47d6-b6b3-447c67f25ef8,"Arctic Ocean, Sea Ice and Coasts"
-e3baaf42-f8ef-47d6-b6b3-447c67f25ef8,Coastal Flooding
-e3baaf42-f8ef-47d6-b6b3-447c67f25ef8,Ecosystem Vulnerability
-e3baaf42-f8ef-47d6-b6b3-447c67f25ef8,Changing Oceans
-e3baaf42-f8ef-47d6-b6b3-447c67f25ef8,Energy Infrastructure
-e3baaf42-f8ef-47d6-b6b3-447c67f25ef8,Energy Supply
-e3baaf42-f8ef-47d6-b6b3-447c67f25ef8,Energy Transmission/distribution
-eeddecac-1eec-4d7f-8902-a019487f24be,Local Government
-6a5f44cc-300f-4d1f-a1cf-260b71233946,ClimateCoastal FloodingHuman Health
-6a5f44cc-300f-4d1f-a1cf-260b71233946,Coastal Flooding
-6a5f44cc-300f-4d1f-a1cf-260b71233946,Human Health
-62f57355-1081-4a7e-a6d3-3427ec2447e2,ClimateFood ResilienceFood Production
-62f57355-1081-4a7e-a6d3-3427ec2447e2,Food Resilience
-62f57355-1081-4a7e-a6d3-3427ec2447e2,Food Production
-29db34ae-c1a0-4cae-98b6-3256b2b7248b,Local Government
-8a92b311-6c8d-495d-9754-401344e1b353,Local Government
-c3430aa6-b564-4c0e-b58c-6510bf6959fc,Local Government
-011efe10-5cb1-4181-8d20-b9479061de0f,ClimateHuman Health
-011efe10-5cb1-4181-8d20-b9479061de0f,Human Health
+bbf47b47-ce79-4787-b011-f97fa59859db,Local Government
+a84a1936-322f-44c9-9e5f-29b4883306e7,Local Government
+bcc64a67-d57b-41fc-b28d-f1f5fee37e20,Local Government
+4672a0e8-068f-44ed-ab73-e18e87a81d6a,Local Government
+8d9598f8-2fc1-488c-a8b9-44bb012ebbe5,Local Government
+eae7c8d0-f64c-4161-b969-aafdba2bba71,Local Government
+07bdb516-3e1c-40f5-b59f-c6d10fd6f5d0,Local Government
+d63e642e-290e-407f-980a-8498d4ee7832,Local Government
+3d113ed5-046a-4aed-88a4-4fb0aa939198,Local Government
+4114b2be-ac75-4720-872a-558b8d9caf36,ClimateFood Resilience
+4114b2be-ac75-4720-872a-558b8d9caf36,Food Resilience
+11df0733-361e-41c3-81d7-5901928a64cb,Local Government
+def49415-97ee-4578-bf2e-5980f8b6daec,Local Government
+daf75d64-4ce8-4451-af02-fe3eda9caa1e,Local Government
+8877591b-480f-46d4-949b-82a460c8c3b9,Local Government
+e1efca4f-1531-4b5c-a525-df21a76d3da1,Local Government
+c4c4ea06-a44d-4fa8-998d-f1fae379e9cc,Local Government
+68f82f5d-a675-41b5-8e64-02732d0a570b,Local Government
+aa9f2646-98db-4fa8-92d9-314ca5531718,Local Government
+fc5ad59e-6b47-4184-a79a-e55103b916ec,Local Government
+15415ccf-a75b-4eab-9788-1f21b5717f00,Local Government
+4ac12a82-9fc4-4798-9859-df86280e34ad,ClimateFood ResilienceFood SecurityHuman Health
+4ac12a82-9fc4-4798-9859-df86280e34ad,Food Resilience
+4ac12a82-9fc4-4798-9859-df86280e34ad,Food Security
+4ac12a82-9fc4-4798-9859-df86280e34ad,Human Health
+ce6f46ac-83ba-4d3c-87b0-2da816c97034,Local Government
+453ba876-5f95-41df-ad6c-3d0df2aa4587,ClimateHuman Health
+453ba876-5f95-41df-ad6c-3d0df2aa4587,Human Health
+6a1b4f77-a0fe-4287-834a-966e7904af7d,Local Government
+519bad99-b133-4ef1-ba56-7743c734c1b8,Local Government
+fba04894-f186-4018-b8ab-7aa23300bdc6,ClimateHousing and CommunityEmployment/LaborWorkforce DiversityAsianPacific IslanderNative HawaiianArctic Development and TransportArctic Peoples and EcosystemsArctic
+fba04894-f186-4018-b8ab-7aa23300bdc6,Housing and Community
+fba04894-f186-4018-b8ab-7aa23300bdc6,Employment/Labor
+fba04894-f186-4018-b8ab-7aa23300bdc6,Workforce Diversity
+fba04894-f186-4018-b8ab-7aa23300bdc6,Asian
+fba04894-f186-4018-b8ab-7aa23300bdc6,Pacific Islander
+fba04894-f186-4018-b8ab-7aa23300bdc6,Native Hawaiian
+fba04894-f186-4018-b8ab-7aa23300bdc6,Arctic Development and Transport
+fba04894-f186-4018-b8ab-7aa23300bdc6,Arctic Peoples and Ecosystems
+fba04894-f186-4018-b8ab-7aa23300bdc6,Arctic
+a2023ebb-315d-4eec-8bce-c838f6aa1b2f,Local Government
+313458b6-732a-4890-85d2-a32e10f92152,Local Government
+c90578e2-5356-481b-89f8-b218c7668fb9,Local Government
+18a2a711-5334-45eb-b35c-9b33986a2f0a,Local Government
+60d7f99d-7c65-4100-b9ae-6a96b4340b7c,Local Government
+90e7b737-7ab8-492e-af65-35ef2f371ec9,Local Government
+ab9fb9d6-0b1e-41ae-8948-743cd9864fe2,Local Government
+38431848-608a-4ce2-852a-461ae4c37491,Local Government
+a577005e-434a-4908-9e7e-7f8f39947be2,Local Government
+e60b502b-1482-467e-9265-fc038613201d,Local Government
+dcd050eb-d059-4b6f-8ae1-996566c6f8a5,Local Government
+429ab682-3aac-401f-b33d-8db94189e7cc,Local Government
+af87ce7d-c43f-4fa1-892b-62daf183e412,Climate
+121fa148-8a1b-4e96-9895-27a9bf832af9,Local Government
+1e92e521-1fac-44f2-aca7-e4cddf0d86c8,Local Government
+65f2a0d8-86e3-4324-91d9-6ba6e27cd0c6,Local Government
+bb5e7d6d-7bd0-4f4e-9eab-7baa4ca1f164,Local Government
+eca32547-7394-4830-ac5b-24f69a715225,Local Government
+16a63f66-eabc-42a7-bb5b-1ab9505f4737,Local Government
+1d92f8c0-c6e0-49d2-a632-724d5ceddf00,Local Government
+67cfb5f2-1649-461a-bdf2-d2a4b3ec860f,Local Government
+3122d1f4-eb13-46c2-a20a-00cdfc67bff5,ClimateTransportationTransportation Nodes
+3122d1f4-eb13-46c2-a20a-00cdfc67bff5,Transportation
+3122d1f4-eb13-46c2-a20a-00cdfc67bff5,Transportation Nodes
+37fd7b4e-f220-4a2c-a848-217acc550990,ClimateFood ResilienceFood ProductionFood Safety and Nutrition
+37fd7b4e-f220-4a2c-a848-217acc550990,Food Resilience
+37fd7b4e-f220-4a2c-a848-217acc550990,Food Production
+37fd7b4e-f220-4a2c-a848-217acc550990,Food Safety and Nutrition
+34c494ca-33c9-4a7a-afc7-9d43e65d7259,Local Government
+280e99eb-2825-4e47-af6c-c157f68ff662,Local Government
+250d77a3-d2ad-47c4-b0be-87336c8987d2,Local Government
+2b72eff5-c4d3-4065-8c07-7a8b717e4bae,Local Government
+3203dc60-2891-451f-b6cb-f207286e2fad,ClimateFreight MovementTransportationTransportation Flow
+3203dc60-2891-451f-b6cb-f207286e2fad,Freight Movement
+3203dc60-2891-451f-b6cb-f207286e2fad,Transportation
+3203dc60-2891-451f-b6cb-f207286e2fad,Transportation Flow
+b1d31681-4780-4916-9329-0b9421635cbb,Local Government
+b9e095c4-6b43-4872-a88c-e68209159536,Local Government
+8bc9126a-d010-4aac-aee8-4b6f110c1c95,Older Adults Health Data Collection
+a17d340c-48cc-4b7d-ab3b-0bf4a3e60987,ClimateEcosystem VulnerabilityLand Cover and Land Use
+a17d340c-48cc-4b7d-ab3b-0bf4a3e60987,Ecosystem Vulnerability
+a17d340c-48cc-4b7d-ab3b-0bf4a3e60987,Land Cover and Land Use
+0958112e-78df-4f35-9fd7-ed9aeafc8e39,"ClimateArcticArctic Ocean, Sea Ice and CoastsArctic-Global Teleconnections"
+0958112e-78df-4f35-9fd7-ed9aeafc8e39,Arctic
+0958112e-78df-4f35-9fd7-ed9aeafc8e39,"Arctic Ocean, Sea Ice and Coasts"
+0958112e-78df-4f35-9fd7-ed9aeafc8e39,Arctic-Global Teleconnections
+bd8cfca4-4807-4c06-be6d-43296403a1c4,Local Government
+48d87e69-e077-4871-aee4-5a8ac824af31,Local Government
+df3b0ecf-c720-4005-9d45-4984a86bcfa0,Local Government
+ae7d5bcb-f703-4728-90b1-64f17fec3105,Local Government
+3d6b17ac-df38-4ecf-848a-e6bd3515a4f2,Local Government
+99e8192d-cf62-4971-b1f4-3cd96b1f6dea,Local Government
+453ede07-980c-47bd-aa9a-5aec79d9bb14,Local Government
+74eb6ec5-b28a-4447-a585-2230998fe1ff,Local Government
+8847d1f3-029e-4f30-abd8-a0f6597400f7,Local Government
+1938135b-e1d1-43fb-8dfa-eadd84e8c5c1,Local Government
+ebefce34-24cf-4ec7-ae38-8ec15f82907e,Local Government
+5356060d-8138-44dc-b280-76184752110b,Local Government
+e5577826-f312-4804-aee2-70d925b0852f,ClimateEnergy InfrastructureEnergy ConversionEnergy ResourcesEnergy Supply
+e5577826-f312-4804-aee2-70d925b0852f,Energy Infrastructure
+e5577826-f312-4804-aee2-70d925b0852f,Energy Conversion
+e5577826-f312-4804-aee2-70d925b0852f,Energy Resources
+e5577826-f312-4804-aee2-70d925b0852f,Energy Supply
+da0777aa-5410-44bd-9824-105f4c224b52,ClimateEnergy InfrastructureEnergy ConversionEnergy ResourcesEnergy SupplyTransportationTransportation Nodes
+da0777aa-5410-44bd-9824-105f4c224b52,Energy Infrastructure
+da0777aa-5410-44bd-9824-105f4c224b52,Energy Conversion
+da0777aa-5410-44bd-9824-105f4c224b52,Energy Resources
+da0777aa-5410-44bd-9824-105f4c224b52,Energy Supply
+da0777aa-5410-44bd-9824-105f4c224b52,Transportation
+da0777aa-5410-44bd-9824-105f4c224b52,Transportation Nodes
+24c3b5e2-f050-4314-b55a-8e8868cc0ca3,Local Government
+3d90d358-e4db-4a52-849f-82130d70d13d,Local Government
+a874a381-d82d-4bb7-8f92-a00030cf765f,Local Government
+068e3496-678f-44db-a7b4-5433f85c28bf,Local Government
+f2ba9267-63b8-4574-baf3-ef38fe55b69d,Local Government
+0cdab41a-58d5-41c9-97a2-6da6c09d7ebe,ClimateTransportationTransportation Nodes
+0cdab41a-58d5-41c9-97a2-6da6c09d7ebe,Transportation
+0cdab41a-58d5-41c9-97a2-6da6c09d7ebe,Transportation Nodes
+ac23f9d6-6af1-4ee0-b471-18cb2051c34d,Local Government
+727a843a-ef58-4a10-ac23-844acadffb1a,Local Government
+8b49b0bc-2387-421a-9674-fe4817edb1fb,Local Government
+b9b0c2f0-a560-4eab-8bc8-447447ab4512,ClimateHuman Health
+b9b0c2f0-a560-4eab-8bc8-447447ab4512,Human Health
+051bf48c-49b9-43a6-ad2c-9dc70ead5186,Local Government
+16fef290-a22d-4c08-8585-5060289a1c43,Local Government
+ed5c0e22-99cd-41d5-925c-80b07cc9b141,Local Government
+3e4f2a97-ed5d-469c-9d3f-7f3129e0dec6,Local Government
+fd0d57f6-2097-4e1e-b564-dba56fb082ff,Local Government
+10eb724c-856d-4f2c-a827-fc0bb8757752,Local Government
+8ca78f7e-eacd-4245-b8f3-1279ba1a2a7f,ClimateFood ResilienceFood ProductionHuman HealthTransportationTransportation Nodes
+8ca78f7e-eacd-4245-b8f3-1279ba1a2a7f,Food Resilience
+8ca78f7e-eacd-4245-b8f3-1279ba1a2a7f,Food Production
+8ca78f7e-eacd-4245-b8f3-1279ba1a2a7f,Human Health
+8ca78f7e-eacd-4245-b8f3-1279ba1a2a7f,Transportation
+8ca78f7e-eacd-4245-b8f3-1279ba1a2a7f,Transportation Nodes
+42614dd0-23c9-44ff-b0b2-daad6ebe5fdd,Older Adults Health Data Collection
+377eb550-0805-47fc-97ea-79af6c277705,Local Government
+2f64670d-ba66-46ad-9fc3-5f1ad2efd202,ClimateArcticPermafrost and Arctic LandscapesArctic Peoples and EcosystemsFood Resilience
+2f64670d-ba66-46ad-9fc3-5f1ad2efd202,Arctic
+2f64670d-ba66-46ad-9fc3-5f1ad2efd202,Permafrost and Arctic Landscapes
+2f64670d-ba66-46ad-9fc3-5f1ad2efd202,Arctic Peoples and Ecosystems
+2f64670d-ba66-46ad-9fc3-5f1ad2efd202,Food Resilience
+898652d3-687a-4ab7-b5b5-1cc888f5f377,Local Government
+b436f13a-1b0c-4b3a-978c-1371318bce7b,Local Government
+466a2086-e452-4dc0-a2b9-3b595bc73d5f,Local Government
+81572ba1-0580-48cb-89c3-9b5e7849a468,Local Government
+6d44f276-eaeb-4306-b756-de3baa1847d8,ClimateCoastal FloodingEnergy InfrastructureHuman HealthTransportationPhysical Data
+6d44f276-eaeb-4306-b756-de3baa1847d8,Coastal Flooding
+6d44f276-eaeb-4306-b756-de3baa1847d8,Energy Infrastructure
+6d44f276-eaeb-4306-b756-de3baa1847d8,Human Health
+6d44f276-eaeb-4306-b756-de3baa1847d8,Transportation
+6d44f276-eaeb-4306-b756-de3baa1847d8,Physical Data
+742ba39d-d4ca-4d92-a45b-dd5d03c198a2,Local Government
+6a2dc608-3c8d-4ce9-a7fd-64d32c486aeb,Local Government
+4404c216-1605-4789-8626-2982713d8828,ClimateHuman Health
+4404c216-1605-4789-8626-2982713d8828,Human Health
+a8027566-6b30-45e7-bebb-1fbb68f79022,Local Government
+84e73c45-379f-4248-9c63-171cadc1ae91,Local Government
+16356e13-7217-47e3-8123-d9ed3c23c702,Local Government
+e7b4773f-62c4-4fe8-b103-a859efcd014a,Local Government
+6d00b808-32bc-45e8-a9ba-630f0a73c57d,Local Government
+d58a109c-6192-4a70-8c06-594c6f0bc4f4,ClimateEcosystem VulnerabilityLand Cover and Land UseFood ResilienceFood Production
+d58a109c-6192-4a70-8c06-594c6f0bc4f4,Ecosystem Vulnerability
+d58a109c-6192-4a70-8c06-594c6f0bc4f4,Land Cover and Land Use
+d58a109c-6192-4a70-8c06-594c6f0bc4f4,Food Resilience
+d58a109c-6192-4a70-8c06-594c6f0bc4f4,Food Production
+5fb83c83-17a0-47c1-870d-c723ffaf032e,Local Government
+0fd59e30-b944-40a4-9d19-b68d5b9bde0e,Local Government
+ced7541c-d66d-4ff4-8bf1-eaa086880fb9,Local Government
+3c9cda41-129e-4c68-b780-8291571ae499,Local Government
+f252f1be-dc5d-4f8a-ad26-e122b4586f86,Local Government
+0c5f1220-f4ae-4417-a45a-09e13585342c,Climate
+ebe9635d-f8fb-4b91-b77b-6902818bf2ae,Local Government
+e84ae46f-b8f5-4c89-9ff8-6f7132ee8ade,Local Government
+586863a6-1f73-489b-8828-9b81ec22384a,Climate
+980ca02a-da08-4b9e-96b8-c5e92ef97162,Local Government
+2b2a8866-ff72-4391-b5a3-bdce9f1b5bef,Local Government
+5ff60e8a-9877-4946-b1bd-9049a9784b41,Local Government
+be2bedb0-b21c-484b-a786-744985631c0e,Local Government
+1108b02e-b62b-4e23-9360-1ad9e92832be,Local Government
+f678a890-1a34-404e-b672-6fefd90c32a0,Local Government
+14d6a186-0cfe-4c88-aa19-1f7f3a629621,ClimatePacific IslandsHawaiiEducationK-12Energy InfrastructureTransportationTransportation Network
+14d6a186-0cfe-4c88-aa19-1f7f3a629621,Pacific Islands
+14d6a186-0cfe-4c88-aa19-1f7f3a629621,Hawaii
+14d6a186-0cfe-4c88-aa19-1f7f3a629621,Education
+14d6a186-0cfe-4c88-aa19-1f7f3a629621,K-12
+14d6a186-0cfe-4c88-aa19-1f7f3a629621,Energy Infrastructure
+14d6a186-0cfe-4c88-aa19-1f7f3a629621,Transportation
+14d6a186-0cfe-4c88-aa19-1f7f3a629621,Transportation Network
+322ed07b-290b-47d0-8a8d-7878a6b42d1c,Local Government
+12eb0c5f-d09a-4d63-af48-151155dee714,Local Government
+13905ae5-9326-451d-9b3b-7c83d26323f8,Local Government
+08a9ea51-f7d7-4cdf-966f-36ff6a7ab974,Local Government
+a216ee42-e733-4328-8798-8818df827d6f,Local Government
+a1ff901c-3d46-42e3-ac74-6fcab469f07a,ClimateTransportationTransportation Network
+a1ff901c-3d46-42e3-ac74-6fcab469f07a,Transportation
+a1ff901c-3d46-42e3-ac74-6fcab469f07a,Transportation Network
+7575b894-8040-4373-843f-93be317ba6b5,Older Adults Health Data Collection
+94ef7931-dc89-4a89-a428-48161475602a,Local Government
+87e81f66-79d5-4b3e-9a4f-91f93e6f53d1,Local Government
+be2004bf-3980-4533-9f37-45a07fcc3ed8,Local Government
+1b96a076-5e38-4205-8f32-c3efb0d02c02,Local Government
+80a3531b-47ad-4c00-b48f-650a044f6098,Local Government
+418bf9ec-a404-4620-bc1d-fddabd79f9a7,Local Government
+1a8eb452-c3ea-4951-ba06-b840a5d3948f,Local Government
+2199c1f8-95be-49a8-8ccd-832a85fea409,Energy
+c959d21d-30ec-44be-889f-44fb5999b65a,Local Government
+1d035515-f696-45b2-b0e6-8998d59f9f5c,Older Adults Health Data Collection
+48727423-f690-441c-8232-f9ddd408d84b,Local Government
+7d76a592-4fc6-40e7-b3ae-5aa66c11a655,Local Government
+dcd89c52-82ec-4bf9-a322-557e27fcd944,Local Government
+8e9b0b05-c65f-4afc-b143-cdf1ec403fee,Local Government
+85eaec62-abe9-4a0d-8174-e4e626465df2,Local Government
+e02ce084-873d-4143-bbdb-b477805a1172,Local Government
+e57e69a2-237b-4082-8994-8d07adfcbdfb,Local Government
+9bfd25b3-5e44-4034-9d09-8b46408b0eed,ClimateEcosystem VulnerabilityBiodiversity
+9bfd25b3-5e44-4034-9d09-8b46408b0eed,Ecosystem Vulnerability
+9bfd25b3-5e44-4034-9d09-8b46408b0eed,Biodiversity
+e9fa802a-6372-44e2-93ae-b368f0f6b620,Climate
+f1922523-d193-4133-b180-77ee8fa9a629,Local Government
+d8be4a18-f5e9-440d-bde8-db44413ad073,ClimateWWHGDCoastal Flooding
+d8be4a18-f5e9-440d-bde8-db44413ad073,WWHGD
+d8be4a18-f5e9-440d-bde8-db44413ad073,Coastal Flooding
+00c403c0-20a8-4e98-aba7-6c567ebec364,Local Government
+0c5b2a58-43e3-4f2c-9a39-0963e5500b38,Local Government
+d9fbe867-254b-4798-ae81-4b04108e37c3,Local Government
+d86d0d62-41b8-41da-b434-c0c8961400ca,Local Government
+a756da6a-cc9b-4165-92a3-8b67a975d54c,Local Government
+acf938cb-f20b-4710-8ab3-a59434355cbd,ClimateFood ResilienceFood Safety and Nutrition
+acf938cb-f20b-4710-8ab3-a59434355cbd,Food Resilience
+acf938cb-f20b-4710-8ab3-a59434355cbd,Food Safety and Nutrition
+1a2126a5-0be6-4aae-9d6b-8381eb89f576,Local Government
+b999650c-0d3c-4dfc-a88d-1f5cbdff95a5,Local Government
+01ee7ff1-a212-4020-808c-d09fd10237cd,Local Government
+00c3bf51-5e7d-4bfe-9ad7-34f8d554a27c,Local Government
+625d2040-ed2e-4b63-8801-7d57264abdb7,Local Government
+7f88c813-9531-4f47-953e-8d551c36c48f,Local Government
+44e59b7e-4884-4a80-9f01-947f44065316,ClimateHuman Health
+44e59b7e-4884-4a80-9f01-947f44065316,Human Health
+eb4ed7d3-e2ee-4303-9498-7b613bba8e0a,Local Government
+d786d601-fb56-4673-9a52-0e8b5c169b1b,Local Government
+f5ced6f0-b017-44eb-bc0a-15389aa1cbb7,Local Government
+6e05a04a-cea5-4063-a77c-2b16a0730ba1,Local Government
+662fc55e-c6e2-487e-a2c7-1f5f7a0478ec,Local Government
+bd9b7ff8-3704-47fc-9985-aaa331f0e91d,"ClimateArcticArctic Ocean, Sea Ice and Coasts"
+bd9b7ff8-3704-47fc-9985-aaa331f0e91d,Arctic
+bd9b7ff8-3704-47fc-9985-aaa331f0e91d,"Arctic Ocean, Sea Ice and Coasts"
+cabd6ace-58c0-4e91-aad5-519e799ee950,"ClimateArcticArctic Ocean, Sea Ice and Coasts"
+cabd6ace-58c0-4e91-aad5-519e799ee950,Arctic
+cabd6ace-58c0-4e91-aad5-519e799ee950,"Arctic Ocean, Sea Ice and Coasts"
+5222087b-843b-4f5b-a914-ecced651d042,Local Government
+e7fb909d-fc5e-483b-8297-5b556e81e76b,Local Government
+5e04a489-9e63-491a-82e9-ef619e9210ae,Local Government
+5d554841-b1a8-4b75-b1f1-11463f0cf0c8,Local Government
+75faaf8f-d536-4580-a6ad-bba7e6ff6ef8,Local Government
+3bca7bea-bf62-40e1-9d41-727780d68725,Local Government
+a93f9c06-05b7-4219-9b49-afa475b14002,Local Government
+107692fb-da4d-4f07-9d55-fb65ad2c887b,Local Government
+d7d7d2f1-3b8a-4d71-ae3b-e4dc3f464b6f,Local Government
+66f1ce5d-2a7d-4257-89e7-5c9f98642c61,Local Government
+63af7a75-e019-4fec-8f87-e69549f854c7,Local Government
+a8d57bbc-9191-42e5-a5f2-328c463a5b9b,Local Government
+a78fe23f-7606-4054-b032-6906be21d305,Local Government
+858ddd0d-a1b8-4aea-914c-a67306e137bc,ClimateEnergy InfrastructureFood ResilienceFood DistributionTransportationTransportation Network
+858ddd0d-a1b8-4aea-914c-a67306e137bc,Energy Infrastructure
+858ddd0d-a1b8-4aea-914c-a67306e137bc,Food Resilience
+858ddd0d-a1b8-4aea-914c-a67306e137bc,Food Distribution
+858ddd0d-a1b8-4aea-914c-a67306e137bc,Transportation
+858ddd0d-a1b8-4aea-914c-a67306e137bc,Transportation Network
+c39ab94b-932d-4ef8-a82c-950dab788703,Local Government
+5e43e533-489c-4e1c-bcbc-e7ae0f04c196,Local Government
+d160e755-b3fc-4eb4-a19c-1a9210dbd8b8,Local Government
+c33d324e-c213-4481-9777-a30af12ad0d4,ClimateEnergy InfrastructureTransportationTransportation Network
+c33d324e-c213-4481-9777-a30af12ad0d4,Energy Infrastructure
+c33d324e-c213-4481-9777-a30af12ad0d4,Transportation
+c33d324e-c213-4481-9777-a30af12ad0d4,Transportation Network
+6aa99d65-488a-47dd-a91d-e124cabc1140,Local Government
+d87e58b6-4930-41a0-897a-fb7b7311009c,Local Government
+572b664c-8193-40ff-a1f7-092bf1881c75,Local Government
+da989954-7d31-4d76-88b5-e6bbc2ca11b9,Older Adults Health Data Collection
+ea02849c-e1c1-4b4a-82e0-c24cc248547b,Local Government
+c4e6c741-77e2-4464-8067-1cf1c51efda5,Local Government
+23794844-f47e-4be4-941f-06098dd4c223,Climate
+3b349812-d692-4b8c-8fb1-27cd5ce44c78,Climate
+1e22b155-7d7a-41ba-b8b4-c9a7c3cce50f,Local Government
+aa130603-b6a5-47fd-9074-c814efdba8be,Local Government
+c9183f89-c1a2-4ffb-b50e-6c0e0fea7f51,ClimateArcticArctic Development and TransportEnergy InfrastructureTransportationTransportation Nodes
+c9183f89-c1a2-4ffb-b50e-6c0e0fea7f51,Arctic
+c9183f89-c1a2-4ffb-b50e-6c0e0fea7f51,Arctic Development and Transport
+c9183f89-c1a2-4ffb-b50e-6c0e0fea7f51,Energy Infrastructure
+c9183f89-c1a2-4ffb-b50e-6c0e0fea7f51,Transportation
+c9183f89-c1a2-4ffb-b50e-6c0e0fea7f51,Transportation Nodes
+2a63cc44-4ae2-44a7-9fb0-ab3c0e69e7aa,ClimateArcticArctic Development and TransportEnergy InfrastructureTransportationTransportation Nodes
+2a63cc44-4ae2-44a7-9fb0-ab3c0e69e7aa,Arctic
+2a63cc44-4ae2-44a7-9fb0-ab3c0e69e7aa,Arctic Development and Transport
+2a63cc44-4ae2-44a7-9fb0-ab3c0e69e7aa,Energy Infrastructure
+2a63cc44-4ae2-44a7-9fb0-ab3c0e69e7aa,Transportation
+2a63cc44-4ae2-44a7-9fb0-ab3c0e69e7aa,Transportation Nodes
+2e61a59d-dc9c-48da-b45c-023a513a8e39,Local Government
+d1e1e11e-1c81-43d7-a847-3823a1fd1a61,ClimateEcosystem VulnerabilityBiodiversity
+d1e1e11e-1c81-43d7-a847-3823a1fd1a61,Ecosystem Vulnerability
+d1e1e11e-1c81-43d7-a847-3823a1fd1a61,Biodiversity
+8ba80182-de9f-4594-bdf9-11289fa4b789,Climate
+893a5002-21bd-48e9-8b27-80f7b1e7599b,Local Government
+47c2b77c-5475-44bc-89a5-974ad7f064f3,Local Government
+46d01e29-19f1-40fc-91fe-35bfa648b550,Local Government
+9b1572cb-bf96-45f5-99c7-fd576b66f1db,Local Government
+5a2eae26-8829-4caa-9c0d-6713d3950fe8,Local Government
+075b6ce0-109f-45ad-816c-ab61d28493c8,Local Government
+75e328a1-c514-4712-a921-b70a398ffb1a,Local Government
+a3cd524d-9db0-444c-b8c9-776f6299338a,Local Government
+1221078c-3ac9-48c8-ab8e-89db5ed92908,"ClimateWaterAtmospheric, Earth and Ocean SciencesHydrology"
+1221078c-3ac9-48c8-ab8e-89db5ed92908,Water
+1221078c-3ac9-48c8-ab8e-89db5ed92908,"Atmospheric, Earth and Ocean Sciences"
+1221078c-3ac9-48c8-ab8e-89db5ed92908,Hydrology
+0aa9d4ee-e275-485e-a2a1-128a811db401,Local Government
+bf1096bb-83b1-4c5d-a57d-30d4b277a8bc,Local Government
+b20787d9-e4ef-45ee-9e79-711dbec052f0,Local Government
+040937e3-86bf-4c31-8fe1-c8d760daf50c,Local Government
+4b974f64-7728-42b7-abaa-a56bbb94dc64,Local Government
+6444d6ed-e281-4efa-a05b-1ef029cf9527,Climate
+12650acb-3a4e-4e6d-818d-0571c4e4fb1a,ClimateArcticPermafrost and Arctic LandscapesArctic Peoples and Ecosystems
+12650acb-3a4e-4e6d-818d-0571c4e4fb1a,Arctic
+12650acb-3a4e-4e6d-818d-0571c4e4fb1a,Permafrost and Arctic Landscapes
+12650acb-3a4e-4e6d-818d-0571c4e4fb1a,Arctic Peoples and Ecosystems
+458c57b1-7365-417a-8f4d-eb3563b1ed7c,Local Government
+16c3a4de-7549-45c1-b6dd-68589cfc76a1,Local Government
+30c98609-122b-402a-b348-c163b7e0dac0,Local Government
+8d295fb2-9e12-4452-8071-927c160a2020,Local Government
+2f7d9749-1047-4e58-881a-307bc0892049,Climate
+8b123591-1ae4-4eb3-b6ef-19b8bf64f469,Local Government
+5f5b55cd-ed00-4567-9cbd-8c145240f80a,Local Government
+0b775d0c-568f-4eaa-8bfc-872caeb969e5,ClimateTransportationTransportation Network
+0b775d0c-568f-4eaa-8bfc-872caeb969e5,Transportation
+0b775d0c-568f-4eaa-8bfc-872caeb969e5,Transportation Network
+10eb994f-9e10-42ba-ba90-6f1d5a9bf2a2,Local Government
+3ba960cf-7e38-47bc-833f-d626868ae5d4,Local Government
+d19daba5-72b2-435a-9c7b-936d82891009,Local Government
+c3302fbf-eb5a-4f42-bc9d-5b401a09539a,Local Government
+11348851-f70f-4b9d-93ef-eae5176898e6,Local Government
+15bfa48f-61d9-4988-b286-5e4df94ac813,Local Government
+1f08846c-3f6a-4cdd-a0fe-9c818607d524,Local Government
+a6ccf8eb-2830-444b-b8f6-9f54c117d1ad,Local Government
+0cb1f3c9-84a9-430e-bbe3-0a19d30a0ffb,Local Government
+4612a5ad-6565-4a3d-b5b9-b79f0ab975a6,Local Government
+96cc504a-d043-4648-a516-348920129a7e,Local Government
+9f7e9702-ea92-4862-b616-bde305d30463,Local Government
+baab4f60-eae5-4602-ab49-1cb76888c95a,Local Government
+fd64a9f2-4c3d-48e3-aedb-6d8d2076dc7f,Local Government
+f96dbfff-9d94-4888-a47c-5d89390356d7,Local Government
+5c6bf152-a3f3-455a-ae09-9c1d51c2c662,Local Government
+07f617c4-762a-42d5-bd0f-957c49367c62,Local Government
+4e46cff8-c78c-48fe-a6e3-335f1e7f1cd0,"ClimateArcticArctic Ocean, Sea Ice and CoastsCoastal FloodingEcosystem VulnerabilityChanging OceansEnergy InfrastructureEnergy SupplyEnergy Transmission/distribution"
+4e46cff8-c78c-48fe-a6e3-335f1e7f1cd0,Arctic
+4e46cff8-c78c-48fe-a6e3-335f1e7f1cd0,"Arctic Ocean, Sea Ice and Coasts"
+4e46cff8-c78c-48fe-a6e3-335f1e7f1cd0,Coastal Flooding
+4e46cff8-c78c-48fe-a6e3-335f1e7f1cd0,Ecosystem Vulnerability
+4e46cff8-c78c-48fe-a6e3-335f1e7f1cd0,Changing Oceans
+4e46cff8-c78c-48fe-a6e3-335f1e7f1cd0,Energy Infrastructure
+4e46cff8-c78c-48fe-a6e3-335f1e7f1cd0,Energy Supply
+4e46cff8-c78c-48fe-a6e3-335f1e7f1cd0,Energy Transmission/distribution
+3595df30-6bca-48e5-9027-e45901c18e84,Local Government
+ddf63f62-cf01-45fb-ac06-2e1cf090e75d,Local Government
+655a8d3c-dec7-441f-8d44-d761e3830833,Local Government
+c41b16b8-f17c-49a2-894d-12af025cc4ad,Local Government
+200c44cf-fd9a-421a-9e38-7bba79a61937,Older Adults Health Data Collection
+3ca910d5-79fd-46d8-bc9b-c0b5d339d408,Local Government
+0fc5f53f-a2f1-4948-a314-14d35368e613,Local Government
+e822127f-9e6c-47da-9538-5cd62127fd4e,Local Government
+b5100b32-8052-447a-b370-b8b6b82123d3,Local Government
+b075a313-d17c-4bed-824e-49cddfface46,Local Government
+beb2c9c5-1feb-4525-a275-6ca524d946d4,Local Government
+93eb0f19-2fee-4ca6-814b-4063f5fcda26,Local Government
+a4080643-bff8-4b48-9399-52a6a342a78f,Local Government
+f0750911-13f9-4642-ae00-87ed83f803f5,Older Adults Health Data Collection
+62a0c645-7328-4eda-90c0-06b572653c9e,Local Government
+c3f9aca1-fd46-46c9-b22f-5c1ce2e31005,Local Government
+0ca8a4f9-1a3a-4394-8a51-479f27ec4096,Climate
+f4935c20-c747-4108-9143-f6abb355ebe2,Local Government
+cc0bbe9d-36de-4e75-94ab-75a47ec21c9a,Local Government
+455fe2d5-a323-42fe-9918-a16d34e95722,Local Government
+8b4cb7b8-7d9e-46de-a415-cf1cb0520df2,Local Government
+71280e88-d59a-47f0-8d62-3955c350b1f0,Local Government
+2e9ad6dd-7f0e-446f-bbc2-2dcd1bb4ead6,ClimateTransportationTransportation Nodes
+2e9ad6dd-7f0e-446f-bbc2-2dcd1bb4ead6,Transportation
+2e9ad6dd-7f0e-446f-bbc2-2dcd1bb4ead6,Transportation Nodes
+9610104c-7d64-4030-942b-8e50575bdd70,Local Government
+086091d7-d152-47c1-9776-93c964fadf3f,Local Government
+93f12091-f36c-4782-95de-7e1c87a1cfda,Local Government
+14922fcc-992f-41b9-afe6-e395764791c6,Local Government
+f731f42c-e4bf-4080-8953-7467b354c3f3,Local Government
+ddbaff6f-66a3-4eae-91aa-41152d0e9076,Local Government
+c3bdc9e8-47dd-4dca-ae68-e71e002c2992,Local Government
+d6d3ed14-d83d-4a32-8763-098b8ed9d6f5,Local Government
+b5d58909-0ba3-46a5-97b7-a59d3ef9110d,Local Government
+c00f9ca6-9f0e-4752-a4ca-1c41f37fd0d3,Local Government
+e64a7f31-3b11-4bb9-a1fa-314ef881008e,Local Government
+b21b275f-17af-4d06-884e-4855a5c0328e,Local Government
+cb486981-8306-418d-b487-5377b9bad245,ClimateFood ResilienceHuman Health
+cb486981-8306-418d-b487-5377b9bad245,Food Resilience
+cb486981-8306-418d-b487-5377b9bad245,Human Health
+02462380-9e2d-4d0a-9928-52073248de0f,Local Government
+89ad8f82-998e-4257-81ae-d44b5607f0b7,Local Government
+278ca038-4bf8-48f5-bfe9-d197f0a2ad67,Local Government
+42870210-45bc-4c02-8b65-66f216fa2ef6,Local Government
+77335aed-9274-4750-b59e-f993be5cc269,Local Government
+a7b98786-6b62-4cc7-9760-8e1b74bc54c4,Local Government
+6b0869a2-4776-47d4-ba6d-64d74a522dba,Local Government
+7ab255cd-1c7a-48d2-a4b8-4a04908f1e59,Local Government
+379c7421-c452-4ee9-86f4-4949d92ae5e8,Local Government
+b16f6822-8bc5-43a7-8db2-03af926afd02,Local Government
+a348b8a9-9918-4324-9c5d-cdf09352b77b,ClimateHuman Health
+a348b8a9-9918-4324-9c5d-cdf09352b77b,Human Health
+c478ed32-9350-4ca9-90da-912b501d72e2,Local Government
+cfa77768-e34b-451c-a4c9-aad69026694f,ClimateHuman Health
+cfa77768-e34b-451c-a4c9-aad69026694f,Human Health
+89d9b060-9265-434e-8fe5-d7dba802402b,Local Government
+831cef0b-3535-4110-a591-898c1180d26e,Local Government
+0d568ed4-5a58-46c8-b19a-65627db67d17,Local Government
+c7719564-8973-47e3-9ab5-29ee1e1a06c9,Local Government
+dee26225-07f1-40d4-ac86-588c7b29282e,Local Government
+1c26cb42-7f40-4a31-829e-dac3181c9e3b,ClimateFood ResilienceFood Production
+1c26cb42-7f40-4a31-829e-dac3181c9e3b,Food Resilience
+1c26cb42-7f40-4a31-829e-dac3181c9e3b,Food Production
+68508d87-82d0-4d46-a5c5-5c8ebf91c572,Local Government
+29035b4b-d04a-4576-86bd-311e7b3e4637,ClimateHuman Health
+29035b4b-d04a-4576-86bd-311e7b3e4637,Human Health
+421f72e8-d5d3-4384-a65f-db4cbade22d7,Local Government
+8f5422a3-0106-4869-a74d-34ebd71bdf92,Local Government
+a7b703c5-5134-4a1d-a5cc-263669b08f73,Local Government
+e6471533-d3da-483b-96f5-47fc4fe3fdf3,Local Government
+f2364e40-1cb5-43d7-886c-17553aa59288,Local Government
+b926705c-a071-4002-a71e-67be12f72b9d,Local Government
+5ecddf9a-c07b-434c-acc4-ed36045126db,Local Government
+23e28737-0701-4676-bbcd-dfa2874776e7,ClimateFood ResilienceFood Safety and Nutrition
+23e28737-0701-4676-bbcd-dfa2874776e7,Food Resilience
+23e28737-0701-4676-bbcd-dfa2874776e7,Food Safety and Nutrition
+34b4adf6-0aa6-4014-837a-740a4d958d3f,Local Government
+8be82057-7eb4-4846-822b-49165844ec5b,Energy
+98f2512d-9d1f-4a3d-bdf9-be3ae2a6b1f4,ClimateArcticArctic Development and TransportTransportationTransportation Nodes
+98f2512d-9d1f-4a3d-bdf9-be3ae2a6b1f4,Arctic
+98f2512d-9d1f-4a3d-bdf9-be3ae2a6b1f4,Arctic Development and Transport
+98f2512d-9d1f-4a3d-bdf9-be3ae2a6b1f4,Transportation
+98f2512d-9d1f-4a3d-bdf9-be3ae2a6b1f4,Transportation Nodes
+25764b4a-d5f1-45e5-9694-4f3750bd6eef,Local Government
+7d243827-bfa9-4d21-ba1d-47d0ed6a7950,Local Government
+72646da9-8743-49c1-9798-de3d9798e177,Local Government
+12006d4a-14e6-4d7d-883c-727a9c9a7814,Local Government
+8648a56a-4870-4787-aff3-2eba64f29029,Local Government
+cbffc43b-a866-4a7a-8999-c00b70540005,ClimateFood ResilienceFood Safety and NutritionHuman Health
+cbffc43b-a866-4a7a-8999-c00b70540005,Food Resilience
+cbffc43b-a866-4a7a-8999-c00b70540005,Food Safety and Nutrition
+cbffc43b-a866-4a7a-8999-c00b70540005,Human Health
+76e3de31-65a9-4e39-bd6b-9a3d41634b14,Local Government
+6a7cd470-bf4f-46bf-aa84-7457eabaae3f,Local Government
+ad35c07f-f352-4230-9f5a-e09fc5797e21,Local Government
+ff7c5d9c-a32f-41dc-90a7-f63d29fb7b26,Local Government
+037ff9a5-6df5-4bb3-b208-38291ade3efb,Local Government
+5be278ab-53db-48e8-9bf9-d41ce5264300,Local Government
+fcad7914-f62d-42c0-99a9-29defb563e17,Local Government
+17276d9a-ee8d-4f72-a8eb-d51c61f4f2be,Local Government
+12c5788c-8409-4cf2-b8b5-505a4c62cab4,Local Government
+b727ccf8-fb2e-41ea-80de-56e62f924ce8,Local Government
+4282d98e-8dd8-49cf-b2d1-2d64d5e0e8e8,Local Government
+9345a8bd-f347-477d-84a2-1e23c26ac2fb,Local Government
+e2a4ae16-202a-4694-9356-a2b6edf54d66,Local Government
+ded1c8f5-ee24-419f-be67-30c79be8b57b,Local Government
+bfde18f8-4092-4112-a70f-47d73c53c5ff,Local Government
+5305e987-1831-4d9b-b166-257fea4edcdd,ClimateFood ResilienceFood Production
+5305e987-1831-4d9b-b166-257fea4edcdd,Food Resilience
+5305e987-1831-4d9b-b166-257fea4edcdd,Food Production
+8d5b6d1d-c860-4d6b-903d-48e272602732,Local Government
+e5b833ff-1563-4d9c-bab9-168ddb8daf69,Local Government
+7e3bd444-6b20-4f5b-b4dd-586352db6c5a,Climate
+117ff69f-15fe-465c-9a1c-8c02fc7cbc97,Local Government
+4074798a-e972-4f8b-9fb4-93e03c01426d,Local Government
+5ab8dace-25a9-4aa8-8e64-98dc5e676f85,Local Government
+a3b6ef3f-a3df-4bc7-8021-31982a2c934f,Local Government
+d823f258-e129-4f9d-b022-4cc94c587c66,Local Government
+1e79b295-d00a-4a0b-baf1-c4a23e8f2d45,Local Government
+bdb7b068-0e9c-4cd6-a947-9fac6d5bda1b,Local Government
+a761a7a1-7963-4c5b-b525-3d5b178805f4,Local Government
+a8250f63-d582-4cba-98f7-d9384f5d65e0,Local Government
+a30fc607-0a78-419b-92d9-6b692ada49b4,Local Government
+f344f014-828d-42e9-a745-ca97c95305c3,ClimateEnergy InfrastructureEnergy Resources
+f344f014-828d-42e9-a745-ca97c95305c3,Energy Infrastructure
+f344f014-828d-42e9-a745-ca97c95305c3,Energy Resources
+d8ba593a-ae97-40a9-9af0-4213a38f1048,Local Government
+1ccc2b31-1d96-482b-a8df-79af86554e56,Local Government
+cf84aaaf-0fe1-4ffa-8951-a5c959b0e82c,Local Government
+7bceac3f-0794-4570-8c59-2bbf8e9c64d6,Local Government
+ac95c1b8-a2cb-4a3b-ab3c-6cad80255332,Local Government
+860a1ed5-137a-4e5e-9792-7f32b8c22c7f,Local Government
+e75f401a-ac34-49ca-bae2-3b48f220dda1,Local Government
+a7d13016-45c8-46d6-aedc-074728845308,Local Government
+97ce1408-920f-4201-81f2-11e1793fc380,Local Government
+29a9e9e7-b36d-4c5b-9e1f-93ac9c63b8da,ClimateHuman Health
+29a9e9e7-b36d-4c5b-9e1f-93ac9c63b8da,Human Health
+d4674236-3bbe-4e0e-86f2-a885dad43cdf,Local Government
+5050119b-5f57-46b8-9f61-4f2e43d3e285,Local Government
+83eddc96-db59-4e88-a461-82fe7127fd83,Local Government
+421e3968-1b9e-4c6d-bf40-684e2d66f6dd,Local Government
+48f68303-8992-4031-a648-d406c0d0c107,Local Government
+66601797-07c1-4a0a-b58c-c3c45aee5bc0,Climate
+7f0758eb-017d-48f6-b033-6dae97cd758c,Local Government
+0190fd51-97a3-45f5-84a7-62ec59121c67,Local Government
+f9c54636-6b84-4115-8647-9c3561fc1084,Local Government
+14248aaa-ca1d-4984-a9a5-9e4056a43e30,Local Government
+690a8d3b-96ef-4089-808b-07663b099336,"ClimateArcticArctic Ocean, Sea Ice and CoastsMelting Glaciers, Snow and Ice"
+690a8d3b-96ef-4089-808b-07663b099336,Arctic
+690a8d3b-96ef-4089-808b-07663b099336,"Arctic Ocean, Sea Ice and Coasts"
+690a8d3b-96ef-4089-808b-07663b099336,"Melting Glaciers, Snow and Ice"
+6393c03a-adcd-430d-b417-5923cc301742,Local Government
+871626ff-dab4-44e6-ab4c-e1047eb59fd0,Local Government
+6c1490af-f7b7-4b06-a241-9ad0c56e0043,Local Government
+3ddb4d3a-3bb3-4d17-9318-b9f0bb73c61d,Local Government
+d5e53cf4-75c2-4a93-b2af-669d1df68152,Local Government
+a11f6836-d40c-49e1-ae71-9742eef4223a,Local Government

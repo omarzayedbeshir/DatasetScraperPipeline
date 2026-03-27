@@ -298,6 +298,8 @@ for index, publisher in enumerate(all_publishers, start=1):
         time.sleep(0.5) 
         response = requests.get(publisher["read-more"])
         soup = BeautifulSoup(response.text, "html.parser")
+        if not soup:
+            continue
         if soup.find("div", class_="primary").find("p"):
             publisher["Description"] = soup.find("div", class_="primary").find("p").get_text(strip=True)
         del publisher["read-more"]

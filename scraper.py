@@ -4,6 +4,7 @@ import copy
 import csv
 import time
 import uuid
+from datetime import datetime
 
 dataset = {
     "UUID": "",
@@ -29,7 +30,7 @@ dataset = {
     "HarvestSourceTitle": "",
     "HarvestSourceLink": "",
     "MetadataUpdateDate": "",
-    "SourceDatajsonIdentifier": 0,
+    "SourceDatajsonIdentifier": "",
     "ProgramCode": "",
     "MetadataContext": "",
     "MaintainerEmailAddress": "",
@@ -71,12 +72,10 @@ FIELD_MAP = {
     "Harvest Object Id": "HarvestObjectID",
     "Harvest Source Id": "HarvestSourceID",
     "Public Access Level": "AccessLevel",
-    # "Metadata Source" : "MetadataSource",
     "License": "License",
     "Schema Version": "SchemaVersion",
     "Homepage URL": "HomepageURL",
     "Harvest Source Title": "HarvestSourceTitle",
-    # "Harvest Source Link": "HarvestSourceLink",
     "Metadata Created Date" : "MetadataCreationDate",
     "Metadata Updated Date": "MetadataUpdateDate",
     "Source Datajson Identifier": "SourceDatajsonIdentifier",
@@ -98,6 +97,9 @@ all_dataset_tags = []
 all_files = []
 all_maintainers = []
 all_dataset_topics = []
+
+publishers_dict = {}
+maintainers_dict = {}
 
 with open(datasets_url_file, "r") as f_in:
     for index, line in enumerate(f_in, start=1):
@@ -145,10 +147,12 @@ with open(datasets_url_file, "r") as f_in:
                             
                             # Maintainer.EmailAddress
                             # Maintainer.Name
-                            all_maintainers.append({
-                                    "EmailAddress": td_text,
-                                    "Name": mailto_tag.get_text(strip=True)
-                                })
+                            if not maintainers_dict.get(td_text):
+                                all_maintainers.append({
+                                        "EmailAddress": td_text,
+                                        "Name": mailto_tag.get_text(strip=True)
+                                    })
+                                maintainers_dict[td_text] = True
                     else:
                         current_dataset[key] = td_text
         
@@ -186,38 +190,40 @@ with open(datasets_url_file, "r") as f_in:
 
         # Dataset.MetadataUpdateDate
         if current_dataset["MetadataUpdateDate"]:
-            segments = current_dataset["MetadataUpdateDate"].split()
-            current_dataset["MetadataUpdateDate"] = segments[2] + "-" + str(month_to_num[segments[0]]) + "-" + segments[1][:-1]
+            current_dataset["MetadataUpdateDate"] = datetime.strptime(current_dataset["MetadataUpdateDate"], "%B %d, %Y").strftime("%Y-%m-%d")        
         
         # Dataset.MetadataCreationDate
         if current_dataset["MetadataCreationDate"]:
-            segments = current_dataset["MetadataCreationDate"].split()
-            current_dataset["MetadataCreationDate"] = segments[2] + "-" + str(month_to_num[segments[0]]) + "-" + segments[1][:-1]
-
+            current_dataset["MetadataCreationDate"] = datetime.strptime(current_dataset["MetadataCreationDate"], "%B %d, %Y").strftime("%Y-%m-%d") 
 
         all_datasets.append(current_dataset)
         
         # Publisher.EmailAddress
-        current_publisher["EmailAddress"] = current_dataset["PublisherEmailAddress"]
+        if current_dataset["PublisherEmailAddress"]:
+
+            current_publisher["EmailAddress"] = current_dataset["PublisherEmailAddress"]
         
-        # Publisher.Name
-        if mailto_tag:
-            current_publisher["Name"] = mailto_tag.get_text(strip=True)
+             # Publisher.Name
+            if mailto_tag:
+                current_publisher["Name"] = mailto_tag.get_text(strip=True)
         
-        current_publisher["Description"] = ""
+            current_publisher["Description"] = ""
         
-        # Publisher.OrganizationType
-        if soup.find('span', class_='organization-type'):
-            current_publisher["OrganizationType"] = soup.find('span', class_='organization-type').get_text(strip=True)
+            # Publisher.OrganizationType
+            if soup.find('span', class_='organization-type'):
+                current_publisher["OrganizationType"] = soup.find('span', class_='organization-type').get_text(strip=True)
         
-        # Publisher.Description PROCESSING
-        if soup.find('p', class_='read-more'):
-            if soup.find('p', class_='read-more').find('a')['href']:
-                current_publisher["read-more"] = "https://catalog.data.gov" + soup.find('p', class_='read-more').find('a')['href']
-        elif soup.find(id="organization-info"):
-            if soup.find(id="organization-info").find("p", class_="description"):
-                current_publisher["Description"] = soup.find(id="organization-info").find('p', class_='description').get_text(strip=True)
-        all_publishers.append(current_publisher)
+            # Publisher.Description PROCESSING
+            if soup.find('p', class_='read-more'):
+                if soup.find('p', class_='read-more').find('a')['href']:
+                    current_publisher["read-more"] = "https://catalog.data.gov" + soup.find('p', class_='read-more').find('a')['href']
+            elif soup.find(id="organization-info"):
+                if soup.find(id="organization-info").find("p", class_="description"):
+                    current_publisher["Description"] = soup.find(id="organization-info").find('p', class_='description').get_text(strip=True)
+        
+            if not publishers_dict.get(current_publisher["EmailAddress"]):
+                all_publishers.append(current_publisher)
+                publishers_dict[current_publisher["EmailAddress"]] = True
 
         # DatasetTags.DatasetUUID
         # DatasetTags.Tag
@@ -229,6 +235,8 @@ with open(datasets_url_file, "r") as f_in:
             
             download_btn = item.select_one('a.btn[data-format]')
             
+            link = None
+
             if download_btn:
                 link = download_btn["href"]
             

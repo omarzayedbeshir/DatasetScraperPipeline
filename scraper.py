@@ -105,19 +105,27 @@ with open(datasets_url_file, "r") as f_in:
         current_dataset = copy.deepcopy(dataset)
         line = line.strip()
         print("Processing Dataset: #" + str(index) + " at:", line)
+
+        # Dataset.UUID
         current_dataset["UUID"] = str(uuid.uuid4())
+        
+
         response = requests.get(line)
         soup = BeautifulSoup(response.text, "html.parser")
         if not soup:
             continue
-        # Filling in the fields of the dataset
+        
+        # Dataset.Name
         name_tag = soup.find("h1", itemprop="name") 
         if name_tag:
             current_dataset["Name"] = name_tag.get_text(strip=True)
+        
 
+        # Dataset.Description
         if soup.find("div", itemprop="description"):
             current_dataset["Description"] = soup.find("div", itemprop="description").get_text(strip=True)
         
+
         rows = soup.find_all("tr")
         for row in rows:
             th = row.find("th")
@@ -127,35 +135,38 @@ with open(datasets_url_file, "r") as f_in:
                 td_text = td.get_text(strip=True)
                 if th_text in FIELD_MAP:
                     key = FIELD_MAP[th_text]
-            
+                    
+                    # Dataset.MainntainerEmailAddress
                     if key == "MaintainerEmailAddress":
                         mailto_tag = td.find("a", href=lambda h: h and h.startswith("mailto:"))
                         if mailto_tag:
                             td_text = mailto_tag["href"].replace("mailto:", "").strip()
                             current_dataset[key] = td_text
+                            
+                            # Maintainer.EmailAddress
+                            # Maintainer.Name
                             all_maintainers.append({
                                     "EmailAddress": td_text,
                                     "Name": mailto_tag.get_text(strip=True)
                                 })
-                    elif key == "SourceDatajsonIdentifier":
-                        try:
-                            current_dataset[key] = int(td_text)
-                        except ValueError:
-                            current_dataset[key] = td_text
                     else:
                         current_dataset[key] = td_text
         
         mailto_tag = soup.find("a", title="contact")
-        
+
+        # Dataset.PublisherEmailAddress
         if mailto_tag:
             current_dataset["PublisherEmailAddress"] = mailto_tag["href"].replace("mailto:", "").strip()
         
-        section = soup.find("section", id="dataset-metadata-source")
+        current_publisher = copy.deepcopy(publisher)
         
+        section = soup.find("section", id="dataset-metadata-source")
+
         if section:
             if section.find("p", class_="description"):
                 MetadataSource = section.find("p", class_="description").find("a")
-        
+                
+                # Dataset.MetadataSource
                 if MetadataSource:
                     MetadataSource = MetadataSource["href"]
                     if MetadataSource.startswith("http://") or MetadataSource.startswith("https://"):
@@ -165,6 +176,7 @@ with open(datasets_url_file, "r") as f_in:
 
             HarvestSourceLink = section.find("p", class_="text-muted").find("a")
             
+            # Dataset.HarvestSourceLink
             if HarvestSourceLink:
                 HarvestSourceLink = HarvestSourceLink["href"]
                 if HarvestSourceLink.startswith("http://") or HarvestSourceLink.startswith("https://"):
@@ -172,25 +184,33 @@ with open(datasets_url_file, "r") as f_in:
                 else:
                     current_dataset["HarvestSourceLink"] = "https://catalog.data.gov" + HarvestSourceLink
 
+        # Dataset.MetadataUpdateDate
         if current_dataset["MetadataUpdateDate"]:
             segments = current_dataset["MetadataUpdateDate"].split()
             current_dataset["MetadataUpdateDate"] = segments[2] + "-" + str(month_to_num[segments[0]]) + "-" + segments[1][:-1]
         
+        # Dataset.MetadataCreationDate
         if current_dataset["MetadataCreationDate"]:
             segments = current_dataset["MetadataCreationDate"].split()
             current_dataset["MetadataCreationDate"] = segments[2] + "-" + str(month_to_num[segments[0]]) + "-" + segments[1][:-1]
 
 
         all_datasets.append(current_dataset)
-
-        # Filling in the fields of the publisher
-        current_publisher = copy.deepcopy(publisher)
+        
+        # Publisher.EmailAddress
         current_publisher["EmailAddress"] = current_dataset["PublisherEmailAddress"]
+        
+        # Publisher.Name
         if mailto_tag:
             current_publisher["Name"] = mailto_tag.get_text(strip=True)
+        
         current_publisher["Description"] = ""
+        
+        # Publisher.OrganizationType
         if soup.find('span', class_='organization-type'):
             current_publisher["OrganizationType"] = soup.find('span', class_='organization-type').get_text(strip=True)
+        
+        # Publisher.Description PROCESSING
         if soup.find('p', class_='read-more'):
             if soup.find('p', class_='read-more').find('a')['href']:
                 current_publisher["read-more"] = "https://catalog.data.gov" + soup.find('p', class_='read-more').find('a')['href']
@@ -199,11 +219,11 @@ with open(datasets_url_file, "r") as f_in:
                 current_publisher["Description"] = soup.find(id="organization-info").find('p', class_='description').get_text(strip=True)
         all_publishers.append(current_publisher)
 
-        # Filling in Dataset Tags
+        # DatasetTags.DatasetUUID
+        # DatasetTags.Tag
         for a in soup.select("section.tags a.tag"):
             all_dataset_tags.append({"DatasetUUID": current_dataset["UUID"], "Tag": a["title"]})
 
-        # Filling in the files
         for item in soup.select('li.resource-item'):
             fmt_text = item.select_one('.format-label').text.strip()
             
@@ -212,22 +232,21 @@ with open(datasets_url_file, "r") as f_in:
             if download_btn:
                 link = download_btn["href"]
             
+            # File.Link
+            # File.Format
+            # File.DatasetUUID
             if link and fmt_text:
                 all_files.append({'Link': link, 'Format': fmt_text, "DatasetUUID": current_dataset["UUID"]})
         
-        # Filling in the dataset topics
         topic_list = soup.find("ul", class_="topics")
         if topic_list:
             for item in topic_list.find_all("li", class_="nav-item"):
+                # DatasetTopics.DatasetUUID
+                # DatasetTopics.Topic
                 all_dataset_topics.append({
                         "DatasetUUID": current_dataset["UUID"],
                         "Topic": item.get_text(strip=True)
                     })
-
-        with open("output/datasets.csv", "a", newline="") as f:
-            writer = csv.DictWriter(f, fieldnames=all_datasets[0].keys())
-            writer.writeheader()
-            writer.writerows(all_datasets)
 
 
 with open("output/datasets.csv", "w", newline="") as f:
